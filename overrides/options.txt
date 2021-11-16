@@ -146,9 +146,9 @@ key_key.toggleVisible:42
 key_key.immersiveengineering.magnetEquip:0
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.toggle_focus.desc:0
-key_bbw.key.mode:50
+key_bbw.key.mode:47
 key_bbw.key.fluidmode:33:ALT
-key_key.settings_menu:0
+key_key.settings_menu:44
 key_key.range:0
 key_key.undo:0
 key_key.anchor:0
@@ -181,10 +181,10 @@ key_key.debugDumpNBTBlock:0
 key_key.refinedstorageaddons.openWirelessCraftingGrid:0
 key_key.simplybackpacks.backpackpickup.desc:0
 key_key.simplybackpacks.backpackopen.desc:23
-key_keybind.simplyjetpacks.gui:0
+key_keybind.simplyjetpacks.gui:27
 key_keybind.simplyjetpacks.engine:0
 key_keybind.simplyjetpacks.charger:0
-key_keybind.simplyjetpacks.hover:0
+key_keybind.simplyjetpacks.hover:35
 key_keybind.simplyjetpacks.emergency_hover:0
 key_key.travelersbackpack.inventory:11:ALT
 key_key.travelersbackpack.toggle_tank:0
@@ -234,7 +234,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:0.0
+soundCategory_music:1.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

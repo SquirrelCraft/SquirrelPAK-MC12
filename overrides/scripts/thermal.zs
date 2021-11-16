@@ -18,21 +18,65 @@ mods.thermalexpansion.InductionSmelter.addRecipe
 	50);
 	
 	
-// Use Anglesite to make lead with salt. Makes Anglesite useful
-mods.thermalexpansion.InductionSmelter.addRecipe
-	(<thermalfoundation:material:195> * 8, 
-	<bigreactors:mineralanglesite> * 12, 
-	<immersivetech:material> * 2, 
-	4000, 
-	<thermalfoundation:material:771> * 4, 
-	50);
 
-// Add a way to recycle blockblutonium
+
+
+// TESTING!
+
+// Add Pulverizer recipe for cobalt ore
+mods.thermalexpansion.Pulverizer.addRecipe
+	(<enderio:item_material:31> * 2,
+	<tconstruct:ore>,
+	4000,
+	<minecraft:netherrack>,
+	100);
+
+// Add Pulverizer recipe for cobalt ingot
+mods.thermalexpansion.Pulverizer.addRecipe
+	(<enderio:item_material:31>,
+	<tconstruct:ingots>,
+	2000,
+	<enderio:item_material:31>,
+	25);
+
+// Add Pulverizer recipe for ardite ore
+mods.thermalexpansion.Pulverizer.addRecipe
+	(<enderio:item_material:30> * 2,
+	<tconstruct:ore:1>,
+	4000,
+	<minecraft:netherrack>,
+	100);
+
+// Add Pulverizer recipe for ardite ingot
+mods.thermalexpansion.Pulverizer.addRecipe
+	(<enderio:item_material:30>,
+	<tconstruct:ingots:1>,
+	2000,
+	<enderio:item_material:30>,
+	25);
+
+
+
+
+// Add InductionSmelter recipe for uranium_238
 mods.thermalexpansion.InductionSmelter.addRecipe
-	(<bigreactors:blockyellorium> * 5,
-	<bigreactors:blockblutonium>,
-	<bigreactors:mineralanglesite> * 32,
-	40000,
-	<libvulpes:productnugget:7> * 64,
-	50);
+	(<atomicscience:uranium_238> * 3, 
+	<bigreactors:dustblutonium> * 3, 
+	<bigreactors:dustludicrite> * 9, 
+	10000, 
+	<atomicscience:processing_waste> * 9, 
+	100);
+
+
+// Add InductionSmelter recipe for ingotyellorium
+mods.thermalexpansion.InductionSmelter.addRecipe
+	(<bigreactors:ingotyellorium> * 28, 
+	<atomicscience:uranium_238> * 3, 
+	<bigreactors:mineralbenitoite> * 32, 
+	10000, 
+	<bigreactors:mineralanglesite> * 16, 
+	100);
+
+
+
 
