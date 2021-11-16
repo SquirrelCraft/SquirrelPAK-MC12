@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "SquirrelPAK MC12",
-  "version": "1.1.1+1.12.2",
+  "version": "1.2.1+1.12.2",
   "author": "network_squirrel",
   "files": [
     {
@@ -32,6 +32,11 @@
     {
       "projectID": 310812,
       "fileID": 2783832,
+      "required": true
+    },
+    {
+      "projectID": 238403,
+      "fileID": 2691084,
       "required": true
     },
     {
@@ -100,6 +105,11 @@
       "required": true
     },
     {
+      "projectID": 235121,
+      "fileID": 2764828,
+      "required": true
+    },
+    {
       "projectID": 222880,
       "fileID": 2926428,
       "required": true
@@ -161,7 +171,7 @@
     },
     {
       "projectID": 359407,
-      "fileID": 3251902,
+      "fileID": 3508530,
       "required": true
     },
     {
@@ -291,7 +301,7 @@
     },
     {
       "projectID": 277064,
-      "fileID": 3460959,
+      "fileID": 3483816,
       "required": true
     },
     {
@@ -316,7 +326,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3435328,
+      "fileID": 3511625,
       "required": true
     },
     {
@@ -395,6 +405,11 @@
       "required": true
     },
     {
+      "projectID": 324495,
+      "fileID": 2830255,
+      "required": true
+    },
+    {
       "projectID": 240950,
       "fileID": 2707390,
       "required": true
@@ -402,6 +417,11 @@
     {
       "projectID": 231484,
       "fileID": 2862651,
+      "required": true
+    },
+    {
+      "projectID": 321720,
+      "fileID": 2711427,
       "required": true
     },
     {
@@ -446,7 +466,7 @@
     },
     {
       "projectID": 236541,
-      "fileID": 3434864,
+      "fileID": 3499791,
       "required": true
     },
     {
@@ -476,7 +496,7 @@
     },
     {
       "projectID": 220954,
-      "fileID": 3368737,
+      "fileID": 3488553,
       "required": true
     },
     {
@@ -496,7 +516,7 @@
     },
     {
       "projectID": 322344,
-      "fileID": 3073839,
+      "fileID": 3509087,
       "required": true
     },
     {
@@ -561,7 +581,7 @@
     },
     {
       "projectID": 400933,
-      "fileID": 3273521,
+      "fileID": 3488758,
       "required": true
     },
     {
@@ -577,6 +597,11 @@
     {
       "projectID": 304024,
       "fileID": 2830114,
+      "required": true
+    },
+    {
+      "projectID": 493962,
+      "fileID": 3430042,
       "required": true
     },
     {
@@ -606,7 +631,7 @@
     },
     {
       "projectID": 257818,
-      "fileID": 3475272,
+      "fileID": 3511379,
       "required": true
     },
     {
@@ -630,18 +655,13 @@
       "required": true
     },
     {
-      "projectID": 242818,
-      "fileID": 2779848,
-      "required": true
-    },
-    {
       "projectID": 64578,
       "fileID": 3328811,
       "required": true
     },
     {
-      "projectID": 32274,
-      "fileID": 2916002,
+      "projectID": 242818,
+      "fileID": 2779848,
       "required": true
     },
     {
@@ -650,13 +670,18 @@
       "required": true
     },
     {
-      "projectID": 453925,
-      "fileID": 3231561,
+      "projectID": 32274,
+      "fileID": 2916002,
       "required": true
     },
     {
       "projectID": 300750,
-      "fileID": 2695517,
+      "fileID": 3483422,
+      "required": true
+    },
+    {
+      "projectID": 453925,
+      "fileID": 3231561,
       "required": true
     },
     {

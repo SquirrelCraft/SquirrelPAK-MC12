@@ -26,3 +26,13 @@ mods.thermalexpansion.InductionSmelter.addRecipe
 	4000, 
 	<thermalfoundation:material:771> * 4, 
 	50);
+
+// Add a way to recycle blockblutonium
+mods.thermalexpansion.InductionSmelter.addRecipe
+	(<bigreactors:blockyellorium> * 5,
+	<bigreactors:blockblutonium>,
+	<bigreactors:mineralanglesite> * 32,
+	40000,
+	<libvulpes:productnugget:7> * 64,
+	50);
+
