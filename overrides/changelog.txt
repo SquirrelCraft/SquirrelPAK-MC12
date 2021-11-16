@@ -1,0 +1,161 @@
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC17 Release 1.1.1
+
+File Version 1.1.1+1.12.2
+
+================================================================================
+
+In this release we have just updated mods that had updates. Most of them were
+libraries. Also added a changelog.txt file
+
+
+Alert!!: Need at least 2720MB of RAM!
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+
+Added:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+BrandonsCore-1.12.2-2.4.19.214 to 1.12.2-2.4.20.162
+CraftTweaker2-1.12-4.1.20.652 to 1.12-4.1.20.660
+CreativeCore_v1.10.61_mc1.12.2. to 1.10.65_mc1.12.2
+Draconic-Evolution-1.12.2-2.3.27.353 to 1.12.2-2.3.28.354
+engineersdecor-1.12.2-1.1.2 to 1.12.2-1.1.3
+LibVulpes-1.12.2-0.4.2-83 to 1.12.2-0.4.2-84
+LittleTiles_v1.5.15_mc1.12.2 to v1.5.27_mc1.12.2.
+mysticallib-1.12.2-1.10.0 to 1.12.2-1.12.0
+tesla-core-lib-1.12.2-1.0.17 to 1.12.2-1.0.18
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+None
+-------------------------------------------
+
+
+Downgraded:
+-------------------------------------------
+None
+-------------------------------------------
+
+
+
+
+
+
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC17 Release 1.1
+
+File Version 1.1.0+1.17.0
+
+================================================================================
+
+In this update we have updates mods with bug fixes and added
+Macaws Trapdoors and Fences!
+
+ 
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+ 
+
+Alert!!: Need at least 2720MB of RAM!
+
+ 
+
+Version 1.12.2-R1.0
+
+ 
+
+Known Issues:
+WarpDrive and OpenComputers
+https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues/1
+
+ 
+
+Mods Added:
+
+
+mcw-trapdoors:
+1.0.2-mc1.12.2
+
+mcw-fences:
+1.0.0-mc1.12.2
+
+ 
+
+Mods Removed:
+None
+
+ 
+
+Mods Updated:
+
+
+CraftTweaker2:
+1.12-4.1.20.646 to 2-1.12-4.1.20.655
+
+CreativeCore:
+1.10.58_mc1.12.2 to 1.10.61_mc1.12.2
+
+EnderIO:
+1.12.2-5.2.66 to 1.12.2-5.3.70
+
+fluiddrawers:
+1.12.2-1.0.5 to 1.12.2-1.0.7
+
+foamfix:
+0.10.11-1.12.2 to 0.10.14-1.12.2
+
+immersivepetroleum:
+1.12.2-1.1.9 to 1.12.2-1.1.10
+
+LittleTiles
+1.5.8_mc1.12.2 to 1.5.15_mc1.12.2
+
+mcw-bridges:
+1.0.4-mc1.12.2 to 1.0.6b-mc1.12.2
+
+mcw-doors:
+1.0.0-mc1.12.2 to 1.0.3-mc1.12.2
+
+modtweaker:
+4.0.18 to 4.0.20.4
+
+MTLib:
+3.0.6 to 3.0.7
+
+RebornCore:
+1.12.2-3.19.4.529-universal to 1.12.2-3.19.5-universal
+
+WarpDrive:
+1.12.2-1.5.20 to 1.12.2-1.5.23
+
+ 
+
+Changes/Fixes:
+None
+
+Recent Files
+View All
+Type	Name	Size	Uploaded	Game Version	Downloads	Status		Actions
+R
