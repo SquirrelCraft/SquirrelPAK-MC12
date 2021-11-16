@@ -22,3 +22,10 @@ recipes.addShaped(<minecraft:trapdoor>, [[null, null, null],[<minecraft:planks>,
 // Fixes the rocket seat/ sleeping bag issue
 recipes.addShaped(<advancedrocketry:seat>, [[null, null, null],[null, null, null], [<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>]]);
 recipes.addShaped(<advancedrocketry:seat>, [[null, null, null],[null, null, null], [<minecraft:wool:8>, <minecraft:wool:8>, <minecraft:wool:8>]]);
+
+
+
+// Add for making cobalt/ardite useful
+recipes.addShaped(<bigreactors:dustludicrite> * 8, [[<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>],[<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>], [<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>]]);
+
+
