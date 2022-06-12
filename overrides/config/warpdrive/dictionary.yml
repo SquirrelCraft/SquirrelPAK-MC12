@@ -12,6 +12,7 @@
 # - Soil: this block is a soil for plants (default: dirt, farmland, grass, sand & soul sand).
 # - Log: this block is harvestable as a wood log (default: all 'log*', '*log' & '*logs' blocks from the ore dictionary).
 # - Leaf: this block is harvestable as a leaf (default: all 'leave*', '*leave' & '*leaves' blocks from the ore dictionary).
+# - StackingPlant: this block is harvestable as a reed or cactus (i.e. base block is kept).
 # - Anchor: ship can't move with this block aboard (default: bedrock and assimilated).
 # - NoMass: this block doesn't count when calculating ship volume/mass (default: leaves, all 'air' blocks).
 # - LeftBehind: this block won't move with your ship (default: RailCraft heat, WarpDrive gases).
@@ -120,6 +121,7 @@ block_tags {
     S:"malisisdoors:rustyhatch"=Anchor
     S:"minecraft:barrier"=Anchor SkipMining
     S:"minecraft:bedrock"=Anchor SkipMining NoBlink
+    S:"minecraft:cactus"=StackingPlant
     S:"minecraft:chain_command_block"=Anchor StopMining
     S:"minecraft:command_block"=Anchor StopMining
     S:"minecraft:dirt"=Soil
@@ -131,11 +133,15 @@ block_tags {
     S:"minecraft:glowstone"=Mining
     S:"minecraft:grass"=Soil
     S:"minecraft:lever"=PlaceLatest
+    S:"minecraft:melon_block"=Log
     S:"minecraft:mycelium"=Soil
     S:"minecraft:obsidian"=PlaceEarliest Mining
     S:"minecraft:portal"=Anchor StopMining
+    S:"minecraft:pumpkin"=Log
     S:"minecraft:redstone_block"=Mining
     S:"minecraft:redstone_torch"=PlaceLatest Mining
+    S:"minecraft:redstone_wire"=PlaceLater Mining
+    S:"minecraft:reeds"=StackingPlant
     S:"minecraft:repeating_command_block"=Anchor StopMining
     S:"minecraft:sand"=Soil
     S:"minecraft:snow_layer"=NoMass Expandable

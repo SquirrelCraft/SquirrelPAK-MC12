@@ -1528,8 +1528,8 @@ aeadditions:pattern.fluid:0, ME Fluid Pattern: Cloud Seed
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Concentrated Cloud Seed
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Oxygen
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Hydrogen
-aeadditions:pattern.fluid:0, ME Fluid Pattern: Rocket Fuel
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Nitrogen
+aeadditions:pattern.fluid:0, ME Fluid Pattern: Rocket Fuel
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Enriched Lava
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Seared Stone
 aeadditions:pattern.fluid:0, ME Fluid Pattern: Molten Obsidian
@@ -2065,6 +2065,13 @@ redstonerepository:util.feeder, Endoscopic Gastrostomizer
 redstonerepository:util.ring_base, Gelid Enderium Ring
 redstonerepository:util.ring_effect, Alchemical Stasis Ring
 redstonerepository:util.ring_mining, Destructive Stabilization Ring
+sereneseasons:greenhouse_glass:0, Greenhouse Glass
+sereneseasons:season_sensor_spring:0, Season Sensor
+sereneseasons:season_sensor_summer:0, Season Sensor
+sereneseasons:season_sensor_autumn:0, Season Sensor
+sereneseasons:season_sensor_winter:0, Season Sensor
+sereneseasons:ss_icon, SS Icon
+sereneseasons:season_clock, Season Clock
 thermaldynamics:duct_0:0, Leadstone Fluxduct
 thermaldynamics:duct_0:1, Hardened Fluxduct
 thermaldynamics:duct_0:2, Redstone Energy Fluxduct
@@ -2534,6 +2541,7 @@ thermaldynamics:cover:0, Fluxed Electrum Block Cover
 thermaldynamics:cover:0, Flux Crystal Block Cover
 thermaldynamics:cover:0, Gelid Enderium Block Cover
 thermaldynamics:cover:0, Gelid Crystal Block Cover
+thermaldynamics:cover:0, Greenhouse Glass Cover
 simplyjetpacks:itemjetpack:0, Creative Jetpack
 simplyjetpacks:itemjetpack:1, Iron Jetpack
 simplyjetpacks:itemjetpack:2, Gold Jetpack
@@ -2668,7 +2676,7 @@ libvulpes:motor, Motor
 libvulpes:advancedmotor, Advanced Motor
 libvulpes:enhancedmotor, Enhanced Motor
 libvulpes:elitemotor, Elite Motor
-libvulpes:productdust:0, Dilithium Dust
+libvulpes:productdust:0, material.Dilithium.name Dust
 libvulpes:productdust:1, Iron Dust
 libvulpes:productdust:2, Gold Dust
 libvulpes:productdust:3, Silicon Dust
@@ -2685,7 +2693,7 @@ libvulpes:productingot:6, Steel Ingot
 libvulpes:productingot:7, Titanium Ingot
 libvulpes:productingot:9, Aluminum Ingot
 libvulpes:productingot:10, Iridium Ingot
-libvulpes:productgem:0, Dilithium Crystal
+libvulpes:productgem:0, material.Dilithium.name Crystal
 libvulpes:productboule:3, Silicon Boule
 libvulpes:productnugget:3, Silicon Nugget
 libvulpes:productnugget:4, Copper Nugget
@@ -2716,7 +2724,7 @@ libvulpes:productsheet:7, Titanium Sheet
 libvulpes:productsheet:9, Aluminum Sheet
 libvulpes:productgear:6, Steel Gear
 libvulpes:productgear:7, Titanium Gear
-libvulpes:ore0:0, Dilithium Ore
+libvulpes:ore0:0, material.Dilithium.name Ore
 libvulpes:ore0:4, Copper Ore
 libvulpes:ore0:5, Tin Ore
 libvulpes:ore0:8, Rutile Ore
@@ -2733,19 +2741,67 @@ libvulpes:coil0:4, Copper Coil
 libvulpes:coil0:7, Titanium Coil
 libvulpes:coil0:9, Aluminum Coil
 libvulpes:coil0:10, Iridium Coil
-advancedrocketry:launchpad, Launch Pad
-advancedrocketry:rocketbuilder, Rocket Assembling Machine
+advancedrocketry:concrete, Concrete
+advancedrocketry:blastbrick, HeatProof Brick
 advancedrocketry:structuretower, Structure Tower
-advancedrocketry:seat, Seat
-advancedrocketry:rocketmotor, Liquid Fueled Engine
-advancedrocketry:advrocketmotor, Advanced Rocket Engine
-advancedrocketry:fueltank, Liquid Fuel Tank
-advancedrocketry:fuelingstation, Fueling station
-advancedrocketry:monitoringstation, Rocket Monitoring Station
+advancedrocketry:blocklens, Lens
+advancedrocketry:solarpanel, Solar Panel
+advancedrocketry:solararraypanel, Solar Array Panel
+advancedrocketry:sawblade, Saw Blade Assembly
+advancedrocketry:platepress, Small Plate Presser
+advancedrocketry:forcefieldprojector, Force Field Projector
+advancedrocketry:forcefield, Force Field
+advancedrocketry:vacuumlaser, Vacuum-Chamber High Power Laser Emitter
+advancedrocketry:blockpump, Fluid Pump
+advancedrocketry:suitworkstation, Suit Workstation
+advancedrocketry:liquidtank, Pressurized Tank
+advancedrocketry:solargenerator, Solar Generator
+advancedrocketry:wirelesstransciever, Wireless Transceiver
+advancedrocketry:arcfurnace, Electric Arc Furnace
+advancedrocketry:rollingmachine, Rolling Machine
+advancedrocketry:lathe, Lathe
+advancedrocketry:crystallizer, Crystallizer
+advancedrocketry:cuttingmachine, Cutting Machine
+advancedrocketry:precisionassemblingmachine, Precision Assembler
+advancedrocketry:electrolyser, Electrolyser
+advancedrocketry:chemicalreactor, Chemical Reactor
+advancedrocketry:precisionlaseretcher, Precision Laser Etcher
+advancedrocketry:observatory, Observatory
+advancedrocketry:planetanalyser, Astrobody Data Processor
+advancedrocketry:centrifuge, Centrifuge
 advancedrocketry:satellitebuilder, Satellite Builder
-advancedrocketry:moonturf, Moon Turf
-advancedrocketry:moonturf_dark, Dark Moon Turf
-advancedrocketry:hotturf, Oxidized Ferric Sand
+advancedrocketry:blackholegenerator, Black Hole Generator
+advancedrocketry:microwavereciever, Microwave Receiver
+advancedrocketry:solararray, Solar Array
+advancedrocketry:warpcore, Warp Core
+advancedrocketry:beacon, Beacon
+advancedrocketry:biomescanner, Biome Scanner
+advancedrocketry:railgun, Railgun
+advancedrocketry:spaceelevatorcontroller, Space Elevator
+advancedrocketry:terraformer, Atmosphere Terraformer
+advancedrocketry:gravitymachine, Area Gravity Controller
+advancedrocketry:spacelaser, Orbital Laser Drill
+advancedrocketry:launchpad, Launch Pad
+advancedrocketry:landingpad, Docking Pad
+advancedrocketry:stationmarker, Station Docking Port
+advancedrocketry:seat, Seat
+advancedrocketry:rocketmotor, Monopropellant Rocket Engine
+advancedrocketry:bipropellantrocketmotor, Bipropellant Rocket Engine
+advancedrocketry:advrocketmotor, Advanced Monopropellant Rocket Engine
+advancedrocketry:advbipropellantrocketmotor, Advanced Bipropellant Rocket Engine
+advancedrocketry:nuclearrocketmotor, Nuclear Thermal Rocket Engine
+advancedrocketry:fueltank, Monopropellant Fuel Tank
+advancedrocketry:bipropellantfueltank, Bipropellant Fuel Tank
+advancedrocketry:oxidizerfueltank, Oxidizer Fuel Tank
+advancedrocketry:nuclearfueltank, Nuclear Thermal Working Fluid Tank
+advancedrocketry:nuclearcore, Nuclear Thermal Fission Core
+advancedrocketry:guidancecomputer, Guidance Computer
+advancedrocketry:intake, Gas Intake
+advancedrocketry:drill, Drill
+advancedrocketry:landingfloat, Landing Float
+advancedrocketry:rocketbuilder, Rocket Assembling Machine
+advancedrocketry:stationbuilder, Space Station Assembler
+advancedrocketry:deployablerocketbuilder, Unmanned Vehicle Assembler
 advancedrocketry:loader:0, Data Bus
 advancedrocketry:loader:1, Satellite Bay
 advancedrocketry:loader:2, Rocket Unloader
@@ -2753,87 +2809,43 @@ advancedrocketry:loader:3, Rocket Loader
 advancedrocketry:loader:4, Rocket Fluid Unloader
 advancedrocketry:loader:5, Rocket Fluid Loader
 advancedrocketry:loader:6, Guidance Computer Access Hatch
-advancedrocketry:precisionassemblingmachine, Precision Assembler
-advancedrocketry:blastbrick, HeatProof Brick
-advancedrocketry:quartzcrucible, Quartz Crucible
-advancedrocketry:crystallizer, Crystallizer
-advancedrocketry:cuttingmachine, Cutting Machine
-advancedrocketry:alienwood, Wood
-advancedrocketry:alienleaves, Lightwood Leaves
-advancedrocketry:aliensapling, Lightwood Sapling
-advancedrocketry:observatory, Observatory
-advancedrocketry:blackholegenerator, Black Hole Generator
-advancedrocketry:concrete, Concrete
-advancedrocketry:planetselector, Planet Selector
+advancedrocketry:fuelingstation, Fueling station
+advancedrocketry:monitoringstation, Rocket Monitoring Station
 advancedrocketry:satellitecontrolcenter, Satellite Terminal
-advancedrocketry:planetanalyser, Astrobody Data Processor
-advancedrocketry:guidancecomputer, Guidance Computer
-advancedrocketry:arcfurnace, Electric Arc Furnace
-advancedrocketry:sawblade, Saw Blade Assembly
-advancedrocketry:lathe, Lathe
-advancedrocketry:rollingmachine, Rolling Machine
-advancedrocketry:platepress, Small Plate Presser
-advancedrocketry:stationbuilder, Space Station Assembler
-advancedrocketry:electrolyser, Electrolyser
-advancedrocketry:chemicalreactor, Chemical Reactor
+advancedrocketry:warpmonitor, Warp Controller
+advancedrocketry:orientationcontroller, Orientation Controller
+advancedrocketry:gravitycontroller, Station Gravity Controller
+advancedrocketry:altitudecontroller, Altitude Controller
+advancedrocketry:planetselector, Planet Selector
+advancedrocketry:planetholoselector, Holographic Planet Selector
 advancedrocketry:oxygenscrubber, CO2 Scrubber
 advancedrocketry:oxygenvent, Oxygen Vent
 advancedrocketry:oxygencharger, Gas Charge Pad
-advancedrocketry:airlock_door, tile.smallAirlockDoor.name
-advancedrocketry:landingpad, Docking Pad
-advancedrocketry:warpcore, Warp Core
-advancedrocketry:warpmonitor, Warp Controller
 advancedrocketry:oxygendetection, Atmosphere Detector
+advancedrocketry:pipesealer, Pipe Seal
+advancedrocketry:airlock_door, tile.smallAirlockDoor.name
 advancedrocketry:unlittorch, Extinguished Torch
+advancedrocketry:thermitetorch, Thermite Torch
+advancedrocketry:circlelight, Station Light
+advancedrocketry:lightsource, tile.lightSource.name
+advancedrocketry:moonturf, Moon Turf
+advancedrocketry:moonturf_dark, Dark Moon Turf
+advancedrocketry:hotturf, Oxidized Ferric Sand
+advancedrocketry:basalt, Basalt
 advancedrocketry:geode, Geode Block
-advancedrocketry:oxygenfluid, Oxygen
-advancedrocketry:hydrogenfluid, Hydrogen
-advancedrocketry:rocketfuel, Rocket Fuel
-advancedrocketry:nitrogenfluid, Nitrogen
-advancedrocketry:enrichedlavafluid, Enriched Lava Block
-advancedrocketry:vitrifiedsand, Vitrified Sand
-advancedrocketry:charcoallog, Charcoal Log
-advancedrocketry:electricmushroom, Electric Mushroom
 advancedrocketry:crystal:0, Violet Crystal Block
 advancedrocketry:crystal:1, Blue Crystal Block
 advancedrocketry:crystal:2, Green Crystal Block
 advancedrocketry:crystal:3, Red Crystal Block
 advancedrocketry:crystal:4, Yellow Crystal Block
 advancedrocketry:crystal:5, Orange Crystal Block
-advancedrocketry:orientationcontroller, Orientation Controller
-advancedrocketry:gravitycontroller, Station Gravity Controller
-advancedrocketry:drill, Drill
-advancedrocketry:microwavereciever, Microwave Receiver
-advancedrocketry:lightsource, tile.lightSource.name
-advancedrocketry:solarpanel, Solar Panel
-advancedrocketry:suitworkstation, Suit Workstation
-advancedrocketry:biomescanner, Biome Scanner
-advancedrocketry:terraformer, Atmosphere Terraformer
-advancedrocketry:deployablerocketbuilder, Unmanned Vehicle Assembler
-advancedrocketry:liquidtank, Pressurized Tank
-advancedrocketry:intake, Gas Intake
-advancedrocketry:circlelight, Station Light
-advancedrocketry:solargenerator, Solar Generator
-advancedrocketry:stationmarker, Station Docking Port
-advancedrocketry:altitudecontroller, Altitude Controller
-advancedrocketry:railgun, Railgun
-advancedrocketry:astrobed, tile.astroBed.name
-advancedrocketry:planetholoselector, Holographic Planet Selector
-advancedrocketry:blocklens, Lens
-advancedrocketry:forcefield, Force Field
-advancedrocketry:forcefieldprojector, Force Field Projector
-advancedrocketry:pipesealer, Pipe Seal
-advancedrocketry:spaceelevatorcontroller, Space Elevator
-advancedrocketry:beacon, Beacon
+advancedrocketry:vitrifiedsand, Vitrified Sand
+advancedrocketry:charcoallog, Charcoal Log
+advancedrocketry:electricmushroom, Electric Mushroom
+advancedrocketry:alienwood, Lightwood Wood
+advancedrocketry:alienleaves, Lightwood Leaves
+advancedrocketry:aliensapling, Lightwood Sapling
 advancedrocketry:planks, Lightwood planks
-advancedrocketry:thermitetorch, Thermite Torch
-advancedrocketry:wirelesstransciever, Wireless Transceiver
-advancedrocketry:blockpump, Fluid Pump
-advancedrocketry:centrifuge, Centrifuge
-advancedrocketry:basalt, Basalt
-advancedrocketry:landingfloat, Landing Float
-advancedrocketry:gravitymachine, Area Gravity Controller
-advancedrocketry:spacelaser, Orbital Laser Drill
 advancedrocketry:productdust:0, Titanium Aluminide Dust
 advancedrocketry:productdust:1, Titanium Iridium Alloy Dust
 advancedrocketry:productingot:0, Titanium Aluminide Ingot
@@ -5184,19 +5196,10 @@ chisel:wool_orange:1, Orange Wool
 chisel:wool_white:0, Wool
 chisel:wool_white:1, Wool
 libvulpes:linker, Linker
-libvulpes:battery:0, Small Battery
-libvulpes:battery:1, 2x Small Battery
+libvulpes:battery:0, item.battery.0.name
+libvulpes:battery:1, item.battery.1.name
 libvulpes:holoprojector, Holo-Projector
-advancedrocketry:iquartzcrucible, Quartz Crucible
-advancedrocketry:orescanner, Ore Scanner
-advancedrocketry:satellitepowersource:0, Basic Solar Panel
-advancedrocketry:satellitepowersource:1, Large Solar Panel
-advancedrocketry:satelliteprimaryfunction:0, Optical Sensor
-advancedrocketry:satelliteprimaryfunction:1, Composition Sensor
-advancedrocketry:satelliteprimaryfunction:2, Mass Detector
-advancedrocketry:satelliteprimaryfunction:3, Microwave Transmitter
-advancedrocketry:satelliteprimaryfunction:4, Ore Mapper
-advancedrocketry:satelliteprimaryfunction:5, Biome Changer
+advancedrocketry:wafer:0, Silicon Wafer
 advancedrocketry:itemcircuitplate:0, Basic Circuit Plate
 advancedrocketry:itemcircuitplate:1, Advanced Circuit Plate
 advancedrocketry:ic:0, Basic Circuit
@@ -5205,33 +5208,25 @@ advancedrocketry:ic:2, Advanced Circuit
 advancedrocketry:ic:3, Control Circuit Board
 advancedrocketry:ic:4, Item IO Circuit Board
 advancedrocketry:ic:5, Liquid IO Circuit Board
-advancedrocketry:wafer:0, Silicon Wafer
-advancedrocketry:dataunit:0, Data Storage Unit
-advancedrocketry:satellite, Satellite
 advancedrocketry:satelliteidchip, Satellite Id Chip
 advancedrocketry:planetidchip, Planet Id Chip
-advancedrocketry:misc:0, User Interface
-advancedrocketry:misc:1, Carbon Brick
-advancedrocketry:sawbladeiron:0, Iron Saw Blade
-advancedrocketry:spacestationchip:0, Space Station Id Chip
-advancedrocketry:spacestation:0, Space Station Container
-advancedrocketry:spacehelmet, Space Helmet
-advancedrocketry:spaceboots, Space Boots
-advancedrocketry:spacechestplate, Space Suit Chest-Piece
-advancedrocketry:spaceleggings, Space Suit Legging
-advancedrocketry:bucketrocketfuel, Tank of Rocket Fuel
-advancedrocketry:bucketnitrogen, Tank of Nitrogen
-advancedrocketry:buckethydrogen, Tank of Hydrogen
-advancedrocketry:bucketoxygen, Tank of Oxygen
-advancedrocketry:bucketenrichedlava, Tank of Enriched Lava
-advancedrocketry:smallairlockdoor, Small Airlock Door
-advancedrocketry:carbonscrubbercartridge, Carbon Collection Cartridge
-advancedrocketry:sealdetector, Seal Detector
-advancedrocketry:jackhammer, Jack Hammer
 advancedrocketry:asteroidchip, Asteroid Chip
 advancedrocketry:elevatorchip, Space Elevator Chip
-advancedrocketry:lens:0, Basic Lens
-advancedrocketry:jetpack, Jet Pack
+advancedrocketry:spacestationchip:0, Space Station Id Chip
+advancedrocketry:dataunit:0, Data Storage Unit
+advancedrocketry:satellite, Satellite
+advancedrocketry:satellitepowersource:0, Basic Solar Panel
+advancedrocketry:satellitepowersource:1, Large Solar Panel
+advancedrocketry:satelliteprimaryfunction:0, Optical Sensor
+advancedrocketry:satelliteprimaryfunction:1, Composition Sensor
+advancedrocketry:satelliteprimaryfunction:2, Mass Detector
+advancedrocketry:satelliteprimaryfunction:3, Microwave Transmitter
+advancedrocketry:satelliteprimaryfunction:4, Ore Mapper
+advancedrocketry:satelliteprimaryfunction:5, Biome Changer
+advancedrocketry:spacehelmet, Space Suit Helmet
+advancedrocketry:spacechestplate, Space Suit Chest-Piece
+advancedrocketry:spaceleggings, Space Suit Leggings
+advancedrocketry:spaceboots, Space Suit Boots
 advancedrocketry:pressuretank:0, Low Pressure Tank
 advancedrocketry:pressuretank:1, Pressure Tank
 advancedrocketry:pressuretank:2, High Pressure Tank
@@ -5241,12 +5236,25 @@ advancedrocketry:itemupgrade:1, Flight Speed Control Upgrade
 advancedrocketry:itemupgrade:2, Bionic Leg Upgrade
 advancedrocketry:itemupgrade:3, Padded Landing Boots
 advancedrocketry:itemupgrade:4, Anti-Fog Visor
-advancedrocketry:atmanalyser, Atmosphere Analyzer
-advancedrocketry:basiclasergun, Basic Laser Gun
+advancedrocketry:itemupgrade:5, Earthbright Visor
 advancedrocketry:beaconfinder, Beacon Finder
-advancedrocketry:thermite, Thermite
-advancedrocketry:hovercraft, HoverCraft
+advancedrocketry:jetpack, Suit Jetpack
+advancedrocketry:atmanalyser, Atmosphere Analyzer
+advancedrocketry:sealdetector, Seal Detector
+advancedrocketry:orescanner, Ore Scanner
 advancedrocketry:biomechanger, Biome Changer Remote
+advancedrocketry:jackhammer, Jackhammer
+advancedrocketry:basiclasergun, Basic Laser Gun
+advancedrocketry:misc:0, User Interface
+advancedrocketry:misc:1, Carbon Brick
+advancedrocketry:sawbladeiron:0, Iron Saw Blade
+advancedrocketry:iquartzcrucible, Quartz Crucible
+advancedrocketry:lens:0, Basic Lens
+advancedrocketry:thermite, Thermite
+advancedrocketry:carbonscrubbercartridge, Carbon Collection Cartridge
+advancedrocketry:smallairlockdoor, Small Airlock Door
+advancedrocketry:hovercraft, Hovercraft
+advancedrocketry:spacestation:0, Space Station Container
 forge:bucketfilled, %s Bucket
 engineersdecor:treated_wood_crafting_table, Treated Wood Crafting Table
 engineersdecor:labeled_crate, Labeled Crate
@@ -5318,6 +5326,14 @@ engineersdecor:sign_danger, Sign "Caution Really Dangerous There"
 engineersdecor:sign_defense, Sign "Caution Defense System Ahead"
 engineersdecor:sign_factoryarea, Sign "Factory Area"
 engineersdecor:sign_exit, Exit Sign
+engineersdecor:sign_radioactive, §6Sign "Radioactive Hazard"
+engineersdecor:sign_laser, §6Sign "Laser Hazard"
+engineersdecor:sign_caution, tile.engineersdecor.sign_caution.name
+engineersdecor:sign_magichazard, §6Sign "Caution Magical Hazard"
+engineersdecor:sign_firehazard, §6Sign "Fire Hazard"
+engineersdecor:sign_hotsurface, §6Sign "Caution Hot Surface"
+engineersdecor:sign_magneticfield, §6Sign "Caution Strong Magnetic Field"
+engineersdecor:sign_frost, §6Sign "Frost Warning"
 engineersdecor:sign_decor, Sign Plate (Engineer's decor)
 engineersdecor:treated_wood_side_table, Treated Wood Side Table
 engineersdecor:halfslab_rebar_concrete, Rebar Concrete Slice
@@ -6649,42 +6665,42 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Kama Head Pattern
 tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Polishing Kit Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
 tconstruct:pattern:0, Armor Trim Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Boots Core Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Chestplate Core Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
 tconstruct:pattern:0, Leggings Core Pattern
 tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Armor Plates Pattern
-tconstruct:pattern:0, Chisel Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Boots Core Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Chestplate Core Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Helmet Core Pattern
+tconstruct:pattern:0, Arrow Head Pattern
 tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Chisel Head Pattern
 tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Polishing Kit Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Armor Plates Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Kama Head Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -8017,80 +8033,80 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Kama Head Cast
 tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Polishing Kit Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Cross Guard Cast
 tconstruct:cast:0, Armor Trim Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Boots Core Cast
+tconstruct:cast:0, Chestplate Core Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Large Sword Blade Cast
 tconstruct:cast:0, Leggings Core Cast
 tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Armor Plates Cast
-tconstruct:cast:0, Chisel Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Boots Core Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Chestplate Core Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Helmet Core Cast
+tconstruct:cast:0, Arrow Head Cast
 tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Chisel Head Cast
 tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Polishing Kit Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Armor Plates Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Kama Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Polishing Kit Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
 tconstruct:clay_cast:0, Armor Trim Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Boots Core Clay Cast
+tconstruct:clay_cast:0, Chestplate Core Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
 tconstruct:clay_cast:0, Leggings Core Clay Cast
 tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Armor Plates Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Boots Core Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Chestplate Core Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Helmet Core Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
 tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
 tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Polishing Kit Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Armor Plates Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -8940,7 +8956,7 @@ appliedenergistics2:facade:0, Cable Facade - Motor
 appliedenergistics2:facade:0, Cable Facade - Advanced Motor
 appliedenergistics2:facade:0, Cable Facade - Enhanced Motor
 appliedenergistics2:facade:0, Cable Facade - Elite Motor
-appliedenergistics2:facade:0, Cable Facade - Dilithium Ore
+appliedenergistics2:facade:0, Cable Facade - material.Dilithium.name Ore
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Rutile Ore
@@ -8957,35 +8973,44 @@ appliedenergistics2:facade:0, Cable Facade - Copper Coil
 appliedenergistics2:facade:0, Cable Facade - Titanium Coil
 appliedenergistics2:facade:0, Cable Facade - Aluminum Coil
 appliedenergistics2:facade:0, Cable Facade - Iridium Coil
-appliedenergistics2:facade:0, Cable Facade - Launch Pad
+appliedenergistics2:facade:0, Cable Facade - Concrete
+appliedenergistics2:facade:0, Cable Facade - HeatProof Brick
 appliedenergistics2:facade:0, Cable Facade - Structure Tower
-appliedenergistics2:facade:0, Cable Facade - Liquid Fueled Engine
-appliedenergistics2:facade:0, Cable Facade - Advanced Rocket Engine
-appliedenergistics2:facade:0, Cable Facade - Liquid Fuel Tank
+appliedenergistics2:facade:0, Cable Facade - Solar Panel
+appliedenergistics2:facade:0, Cable Facade - Solar Array Panel
+appliedenergistics2:facade:0, Cable Facade - Saw Blade Assembly
+appliedenergistics2:facade:0, Cable Facade - Vacuum-Chamber High Power Laser Emitter
+appliedenergistics2:facade:0, Cable Facade - Launch Pad
+appliedenergistics2:facade:0, Cable Facade - Monopropellant Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Bipropellant Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Advanced Monopropellant Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Advanced Bipropellant Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Nuclear Thermal Rocket Engine
+appliedenergistics2:facade:0, Cable Facade - Monopropellant Fuel Tank
+appliedenergistics2:facade:0, Cable Facade - Bipropellant Fuel Tank
+appliedenergistics2:facade:0, Cable Facade - Oxidizer Fuel Tank
+appliedenergistics2:facade:0, Cable Facade - Nuclear Thermal Working Fluid Tank
+appliedenergistics2:facade:0, Cable Facade - Nuclear Thermal Fission Core
+appliedenergistics2:facade:0, Cable Facade - Gas Intake
+appliedenergistics2:facade:0, Cable Facade - Drill
+appliedenergistics2:facade:0, Cable Facade - Landing Float
+appliedenergistics2:facade:0, Cable Facade - Station Light
 appliedenergistics2:facade:0, Cable Facade - Moon Turf
 appliedenergistics2:facade:0, Cable Facade - Dark Moon Turf
 appliedenergistics2:facade:0, Cable Facade - Oxidized Ferric Sand
-appliedenergistics2:facade:0, Cable Facade - HeatProof Brick
-appliedenergistics2:facade:0, Cable Facade - Wood
-appliedenergistics2:facade:0, Cable Facade - Lightwood Leaves
-appliedenergistics2:facade:0, Cable Facade - Concrete
-appliedenergistics2:facade:0, Cable Facade - Saw Blade Assembly
+appliedenergistics2:facade:0, Cable Facade - Basalt
 appliedenergistics2:facade:0, Cable Facade - Geode Block
-appliedenergistics2:facade:0, Cable Facade - Vitrified Sand
-appliedenergistics2:facade:0, Cable Facade - Charcoal Log
 appliedenergistics2:facade:0, Cable Facade - Violet Crystal Block
 appliedenergistics2:facade:0, Cable Facade - Blue Crystal Block
 appliedenergistics2:facade:0, Cable Facade - Green Crystal Block
 appliedenergistics2:facade:0, Cable Facade - Red Crystal Block
 appliedenergistics2:facade:0, Cable Facade - Yellow Crystal Block
 appliedenergistics2:facade:0, Cable Facade - Orange Crystal Block
-appliedenergistics2:facade:0, Cable Facade - Drill
-appliedenergistics2:facade:0, Cable Facade - Solar Panel
-appliedenergistics2:facade:0, Cable Facade - Gas Intake
-appliedenergistics2:facade:0, Cable Facade - Station Light
+appliedenergistics2:facade:0, Cable Facade - Vitrified Sand
+appliedenergistics2:facade:0, Cable Facade - Charcoal Log
+appliedenergistics2:facade:0, Cable Facade - Lightwood Wood
+appliedenergistics2:facade:0, Cable Facade - Lightwood Leaves
 appliedenergistics2:facade:0, Cable Facade - Lightwood planks
-appliedenergistics2:facade:0, Cable Facade - Basalt
-appliedenergistics2:facade:0, Cable Facade - Landing Float
 appliedenergistics2:facade:0, Cable Facade - Titanium Aluminide Block
 appliedenergistics2:facade:0, Cable Facade - Titanium Iridium Alloy Block
 appliedenergistics2:facade:0, Cable Facade - Clinker Brick Block
@@ -11409,6 +11434,24 @@ appliedenergistics2:facade:0, Cable Facade - Dimensional Small Blocks
 appliedenergistics2:facade:0, Cable Facade - Activity Probe
 appliedenergistics2:facade:0, Cable Facade - levarG
 appliedenergistics2:facade:0, Cable Facade - dnaS
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Light Emitting)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (White-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Red-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Green-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Blue-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Yellow-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Orange-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Magenta-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Light-Blue-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Lime-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Pink-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Gray-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Light-Gray-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Cyan-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Purple-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Brown-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Black-Stained)
+appliedenergistics2:facade:0, Cable Facade - Redstone-Sensitive Glass Block (Inverted, Light Emitting)
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Block of Steel
 appliedenergistics2:facade:0, Cable Facade - Rock Salt
@@ -11484,6 +11527,11 @@ appliedenergistics2:facade:0, Cable Facade - Honey Block
 appliedenergistics2:facade:0, Cable Facade - Honeycomb Block
 appliedenergistics2:facade:0, Cable Facade - Pressed Wax Block
 appliedenergistics2:facade:0, Cable Facade - Waxcomb Block
+appliedenergistics2:facade:0, Cable Facade - Forged wall
+appliedenergistics2:facade:0, Cable Facade - Forged pillar
+appliedenergistics2:facade:0, Cable Facade - Forged platform
+appliedenergistics2:facade:0, Cable Facade - Extractor pipe
+appliedenergistics2:facade:0, Cable Facade - Seeping bedrock
 appliedenergistics2:facade:0, Cable Facade - Particles Collider
 appliedenergistics2:facade:0, Cable Facade - Plain Void Shell
 appliedenergistics2:facade:0, Cable Facade - Glass Void Shell
@@ -11928,11 +11976,6 @@ atomicscience:laser_emitter, Laser Emitter
 atomicscience:laser_booster, Laser Booster
 atomicscience:item_container, Item Holder
 atomicscience:sensor_thermal_redstone, Thermal Sensor Redstone
-quark:sugar_block, tile.sugar_block.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:iron_rod, tile.iron_rod.name
-quark:chain, item.chain.name
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -11950,6 +11993,11 @@ quark:glass_shards:13, Brown Glass Shard
 quark:glass_shards:14, Green Glass Shard
 quark:glass_shards:15, Red Glass Shard
 quark:glass_shards:16, Black Glass Shard
+quark:sugar_block, tile.sugar_block.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:iron_rod, tile.iron_rod.name
+quark:chain, item.chain.name
 quark:witch_hat, item.witch_hat.name
 morphtool:tool, item.tool.name
 bibliocraft:bookcase:0, Oak Bookcase
@@ -12582,6 +12630,139 @@ elevatorid:elevator_green, Green Elevator
 elevatorid:elevator_red, Red Elevator
 elevatorid:elevator_black, Black Elevator
 energymeters:meter:0, Energy Meter
+erebus:erebus_food:0, Beetle Larva
+erebus:erebus_food:1, Cooked Beetle Larva
+erebus:erebus_food:2, Grasshopper Leg
+erebus:erebus_food:3, Cooked Grasshopper Leg
+erebus:erebus_food:4, Tarantula Leg
+erebus:erebus_food:5, Crispy Tarantula Leg
+erebus:erebus_food:6, Bamboo Soup
+erebus:erebus_food:7, Melonade
+erebus:erebus_food:8, Sparkly Melonade
+erebus:erebus_food:9, Larvae-on-a-Stick
+erebus:erebus_food:10, Honey Sandwich
+erebus:erebus_food:11, Dark Fruit
+erebus:erebus_food:12, Raw Titan Chop
+erebus:erebus_food:13, Cooked Titan Chop
+erebus:erebus_food:14, Swampberries
+erebus:erebus_food:15, Cabbage
+erebus:erebus_food:16, Cooked Titan Stew
+erebus:erebus_food:17, Raw Prickly Pear
+erebus:erebus_food:18, Cooked Prickly Pear
+erebus:erebus_food:19, Dark Fruit Pie
+erebus:heart_berries, Heartberries
+erebus:life_blood, Life Blood
+erebus:turnip, Turnips
+erebus:cabbage_seeds, Cabbage Seeds
+erebus:mandrake_root, Mandrake Root
+erebus:stag_heart_raw, Heart of the Stag
+erebus:stag_heart_cooked, Roasted Heart of the Stag
+erebus:smoothie:0, Green Tea Grasshopper Smoothie
+erebus:smoothie:1, Money Honey Smoothie
+erebus:smoothie:2, Nothing In The Middle Smoothie
+erebus:smoothie:3, Green Giant Smoothie
+erebus:smoothie:4, Seedy Goodness Smoothie
+erebus:smoothie:5, Givin' Me The Blues Smoothie
+erebus:smoothie:6, Hot Hot Baby Smoothie
+erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
+erebus:smoothie:8, Liquid Gold Smoothie
+erebus:smoothie:9, Bryuf's Brew Smoothie
+erebus:idols:0, Mud Scarab
+erebus:idols:1, Iron Scarab
+erebus:idols:2, Gold Scarab
+erebus:idols:3, Jade Scarab
+erebus:idols:4, Spawn Mud Umbergolem
+erebus:idols:5, Spawn Iron Umbergolem
+erebus:idols:6, Spawn Gold Umbergolem
+erebus:idols:7, Spawn Jade Umbergolem
+erebus:jade_helmet, Jade Helmet
+erebus:jade_chestplate, Jade Chestplate
+erebus:jade_leggings, Jade Leggings
+erebus:jade_boots, Jade Boots
+erebus:jade_sword, Jade Sword
+erebus:jade_pickaxe, Jade Pickaxe
+erebus:jade_axe, Jade Axe
+erebus:jade_shovel, Jade Shovel
+erebus:jade_paxel, Jade Paxel
+erebus:jade_hoe, Jade Hoe
+erebus:exoskeleton_helmet, Exoskeleton Helmet
+erebus:exoskeleton_chestplate, Exoskeleton Chestplate
+erebus:exoskeleton_leggings, Exoskeleton Leggings
+erebus:exoskeleton_boots, Exoskeleton Boots
+erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
+erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
+erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
+erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
+erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
+erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
+erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
+erebus:rhino_exoskeleton_boots, Rhino Plate Boots
+erebus:bamboo_helmet, Bamboo Helmet
+erebus:bamboo_chestplate, Bamboo Chestplate
+erebus:bamboo_leggings, Bamboo Leggings
+erebus:bamboo_boots, Bamboo Boots
+erebus:bambucket, Bambucket
+erebus:rein_compound_goggles, Reinforced Compound Goggles
+erebus:compound_goggles, Compound Goggles
+erebus:sprint_leggings, Sprint Leggings
+erebus:jump_boots, Jump Boots
+erebus:glider_chestplate, Glider Chestplate
+erebus:glider_chestplate_powered, Powered Glider Chestplate
+erebus:mushroom_helmet, Mush Helm
+erebus:spider_t_shirt, Tarantula Boss Trophy
+erebus:water_striders, Water Striders
+erebus:bamboo_shield, Bamboo Shield
+erebus:exoskeleton_shield, Exoskeleton Shield
+erebus:jade_shield, Jade Shield
+erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
+erebus:rhino_exoskeleton_shield, Rhino Plate Shield
+erebus:rolled_newspaper, Rolled-up Newspaper
+erebus:wasp_sword, Wasp Sword
+erebus:wasp_dagger, Wasp Dagger
+erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
+erebus:war_hammer, Quake Hammer
+erebus:web_slinger, Web Slinger
+erebus:web_slinger_wither, Wither Web Slinger
+erebus:max_speed_bow, Maximum Speed Bow
+erebus:nectar_collector, Nectar Collector
+erebus:ant_taming_amulet, Ant Taming Amulet
+erebus:bee_taming_amulet, Bee Taming Amulet
+erebus:woodlouse_ball, Woodlouse Ball
+erebus:wand_of_animation, Wand of Animation
+erebus:anti_venom_bottle, Bottle of Anti-Venom
+erebus:flower_seed:0, Black Flower Seeds
+erebus:flower_seed:1, Red Flower Seeds
+erebus:flower_seed:2, Brown Flower Seeds
+erebus:flower_seed:3, Blue Flower Seeds
+erebus:flower_seed:4, Purple Flower Seeds
+erebus:flower_seed:5, Cyan Flower Seeds
+erebus:flower_seed:6, Light Gray Flower Seeds
+erebus:flower_seed:7, Gray Flower Seeds
+erebus:flower_seed:8, Pink Flower Seeds
+erebus:flower_seed:9, Yellow Flower Seeds
+erebus:flower_seed:10, Light Blue Flower Seeds
+erebus:flower_seed:11, Magenta Flower Seeds
+erebus:flower_seed:12, Orange Flower Seeds
+erebus:flower_seed:13, White Flower Seeds
+erebus:flower_seed:14, Rainbow Flower Seeds
+erebus:death_compass, Death Compass
+erebus:spray_can, Insect Repellent
+erebus:whetstone:0, Whetstone
+erebus:whetstone:1, Whetstone
+erebus:whetstone:2, Whetstone
+erebus:whetstone:3, Whetstone
+erebus:whetstone:4, Whetstone
+erebus:whetstone:5, Whetstone
+erebus:portal_activator, Staff of Gaea
+erebus:homing_beecon, Homing Beecon
+erebus:homing_beecon_advanced, Advanced Homing Beecon
+erebus:wand_of_preservation, Wand of Preservation
+erebus:compost, Compost
+erebus:planticide, Planticide
+erebus:smoothie_book, Smoothie-matic 2000
+erebus:horn_of_summoning, Horn of Bee Summoning
+erebus:erebus_map, Empty Papyrus Map (N.Y.I)
+erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 erebus:umberstone:0, Umberstone
 erebus:umberstone:1, Umbercobble
 erebus:umberstone:2, Mossy Umbercobble
@@ -12962,139 +13143,6 @@ erebus:stairs_varnished, Varnished Stairs
 erebus:slab_planks_varnished, Varnished Slab
 erebus:fence_varnished, Varnished Fence
 erebus:fence_gate_varnished, Varnished Fence Gate
-erebus:erebus_food:0, Beetle Larva
-erebus:erebus_food:1, Cooked Beetle Larva
-erebus:erebus_food:2, Grasshopper Leg
-erebus:erebus_food:3, Cooked Grasshopper Leg
-erebus:erebus_food:4, Tarantula Leg
-erebus:erebus_food:5, Crispy Tarantula Leg
-erebus:erebus_food:6, Bamboo Soup
-erebus:erebus_food:7, Melonade
-erebus:erebus_food:8, Sparkly Melonade
-erebus:erebus_food:9, Larvae-on-a-Stick
-erebus:erebus_food:10, Honey Sandwich
-erebus:erebus_food:11, Dark Fruit
-erebus:erebus_food:12, Raw Titan Chop
-erebus:erebus_food:13, Cooked Titan Chop
-erebus:erebus_food:14, Swampberries
-erebus:erebus_food:15, Cabbage
-erebus:erebus_food:16, Cooked Titan Stew
-erebus:erebus_food:17, Raw Prickly Pear
-erebus:erebus_food:18, Cooked Prickly Pear
-erebus:erebus_food:19, Dark Fruit Pie
-erebus:heart_berries, Heartberries
-erebus:life_blood, Life Blood
-erebus:turnip, Turnips
-erebus:cabbage_seeds, Cabbage Seeds
-erebus:mandrake_root, Mandrake Root
-erebus:stag_heart_raw, Heart of the Stag
-erebus:stag_heart_cooked, Roasted Heart of the Stag
-erebus:smoothie:0, Green Tea Grasshopper Smoothie
-erebus:smoothie:1, Money Honey Smoothie
-erebus:smoothie:2, Nothing In The Middle Smoothie
-erebus:smoothie:3, Green Giant Smoothie
-erebus:smoothie:4, Seedy Goodness Smoothie
-erebus:smoothie:5, Givin' Me The Blues Smoothie
-erebus:smoothie:6, Hot Hot Baby Smoothie
-erebus:smoothie:7, Don't Meddle With The Nettle Smoothie
-erebus:smoothie:8, Liquid Gold Smoothie
-erebus:smoothie:9, Bryuf's Brew Smoothie
-erebus:idols:0, Mud Scarab
-erebus:idols:1, Iron Scarab
-erebus:idols:2, Gold Scarab
-erebus:idols:3, Jade Scarab
-erebus:idols:4, Spawn Mud Umbergolem
-erebus:idols:5, Spawn Iron Umbergolem
-erebus:idols:6, Spawn Gold Umbergolem
-erebus:idols:7, Spawn Jade Umbergolem
-erebus:jade_helmet, Jade Helmet
-erebus:jade_chestplate, Jade Chestplate
-erebus:jade_leggings, Jade Leggings
-erebus:jade_boots, Jade Boots
-erebus:jade_sword, Jade Sword
-erebus:jade_pickaxe, Jade Pickaxe
-erebus:jade_axe, Jade Axe
-erebus:jade_shovel, Jade Shovel
-erebus:jade_paxel, Jade Paxel
-erebus:jade_hoe, Jade Hoe
-erebus:exoskeleton_helmet, Exoskeleton Helmet
-erebus:exoskeleton_chestplate, Exoskeleton Chestplate
-erebus:exoskeleton_leggings, Exoskeleton Leggings
-erebus:exoskeleton_boots, Exoskeleton Boots
-erebus:rein_exoskeleton_helmet, Reinforced Exoskeleton Helmet
-erebus:rein_exoskeleton_chestplate, Reinforced Exoskeleton Chestplate
-erebus:rein_exoskeleton_leggings, Reinforced Exoskeleton Leggings
-erebus:rein_exoskeleton_boots, Reinforced Exoskeleton Boots
-erebus:rhino_exoskeleton_helmet, Rhino Plate Helmet
-erebus:rhino_exoskeleton_chestplate, Rhino Plate Chestplate
-erebus:rhino_exoskeleton_leggings, Rhino Plate Leggings
-erebus:rhino_exoskeleton_boots, Rhino Plate Boots
-erebus:bamboo_helmet, Bamboo Helmet
-erebus:bamboo_chestplate, Bamboo Chestplate
-erebus:bamboo_leggings, Bamboo Leggings
-erebus:bamboo_boots, Bamboo Boots
-erebus:bambucket, Bambucket
-erebus:rein_compound_goggles, Reinforced Compound Goggles
-erebus:compound_goggles, Compound Goggles
-erebus:sprint_leggings, Sprint Leggings
-erebus:jump_boots, Jump Boots
-erebus:glider_chestplate, Glider Chestplate
-erebus:glider_chestplate_powered, Powered Glider Chestplate
-erebus:mushroom_helmet, Mush Helm
-erebus:spider_t_shirt, Tarantula Boss Trophy
-erebus:water_striders, Water Striders
-erebus:bamboo_shield, Bamboo Shield
-erebus:exoskeleton_shield, Exoskeleton Shield
-erebus:jade_shield, Jade Shield
-erebus:rein_exoskeleton_shield, Reinforced Exoskeleton Shield
-erebus:rhino_exoskeleton_shield, Rhino Plate Shield
-erebus:rolled_newspaper, Rolled-up Newspaper
-erebus:wasp_sword, Wasp Sword
-erebus:wasp_dagger, Wasp Dagger
-erebus:enhanced_scorpion_pincer, Augmented Scorpion Pincer
-erebus:war_hammer, Quake Hammer
-erebus:web_slinger, Web Slinger
-erebus:web_slinger_wither, Wither Web Slinger
-erebus:max_speed_bow, Maximum Speed Bow
-erebus:nectar_collector, Nectar Collector
-erebus:ant_taming_amulet, Ant Taming Amulet
-erebus:bee_taming_amulet, Bee Taming Amulet
-erebus:woodlouse_ball, Woodlouse Ball
-erebus:wand_of_animation, Wand of Animation
-erebus:anti_venom_bottle, Bottle of Anti-Venom
-erebus:flower_seed:0, Black Flower Seeds
-erebus:flower_seed:1, Red Flower Seeds
-erebus:flower_seed:2, Brown Flower Seeds
-erebus:flower_seed:3, Blue Flower Seeds
-erebus:flower_seed:4, Purple Flower Seeds
-erebus:flower_seed:5, Cyan Flower Seeds
-erebus:flower_seed:6, Light Gray Flower Seeds
-erebus:flower_seed:7, Gray Flower Seeds
-erebus:flower_seed:8, Pink Flower Seeds
-erebus:flower_seed:9, Yellow Flower Seeds
-erebus:flower_seed:10, Light Blue Flower Seeds
-erebus:flower_seed:11, Magenta Flower Seeds
-erebus:flower_seed:12, Orange Flower Seeds
-erebus:flower_seed:13, White Flower Seeds
-erebus:flower_seed:14, Rainbow Flower Seeds
-erebus:death_compass, Death Compass
-erebus:spray_can, Insect Repellent
-erebus:whetstone:0, Whetstone
-erebus:whetstone:1, Whetstone
-erebus:whetstone:2, Whetstone
-erebus:whetstone:3, Whetstone
-erebus:whetstone:4, Whetstone
-erebus:whetstone:5, Whetstone
-erebus:portal_activator, Staff of Gaea
-erebus:homing_beecon, Homing Beecon
-erebus:homing_beecon_advanced, Advanced Homing Beecon
-erebus:wand_of_preservation, Wand of Preservation
-erebus:compost, Compost
-erebus:planticide, Planticide
-erebus:smoothie_book, Smoothie-matic 2000
-erebus:horn_of_summoning, Horn of Bee Summoning
-erebus:erebus_map, Empty Papyrus Map (N.Y.I)
-erebus:erebus_map_filled:0, Papyrus Map (N.Y.I)
 zerocore:debugtool, Debug Tool
 bigreactors:ingotyellorium, Yellorium Ingot
 bigreactors:ingotcyanite, Cyanite Ingot
@@ -13238,24 +13286,6 @@ teslacorelib:machine_case, Machine Case
 teslacorelib:speed_tier1, Speed Upgrade I
 teslacorelib:speed_tier2, Speed Upgrade II
 teslacorelib:wrench, Tesla Wrench
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -13376,6 +13406,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 littletiles:hammer:0, Little Hammer
 littletiles:recipeadvanced:0, Little Blueprint
 littletiles:saw, Little Saw
@@ -14547,47 +14595,34 @@ xnet:wireless_router, Wireless Router
 xnet:antenna, Antenna
 xnet:antenna_base, Antenna Base
 xnet:antenna_dish, Antenna Dish
-opensecurity:rolldoor_element, Rolldoor Element
-opensecurity:rfid_reader, RFID Reader
-opensecurity:alarm, Alarm
-opensecurity:biometric_reader, Biometric Reader
-opensecurity:energy_turret, Energy Turret
-opensecurity:nanofog_terminal, NanoFog Terminal
-opensecurity:mag_reader, Magnetic Card Reader
-opensecurity:entity_detector, Entity Detector
-opensecurity:data_block, Data Block
 opensecurity:keypad, Keypad
 opensecurity:security_terminal, Security Terminal
+opensecurity:mag_reader, Magnetic Card Reader
+opensecurity:alarm, Alarm
+opensecurity:entity_detector, Entity Detector
+opensecurity:nanofog_terminal, NanoFog Terminal
+opensecurity:data_block, Data Block
+opensecurity:energy_turret, Energy Turret
+opensecurity:biometric_reader, Biometric Reader
 opensecurity:card_writer, Card Writer
+opensecurity:rfid_reader, RFID Reader
+opensecurity:rolldoor_element, Rolldoor Element
 opensecurity:secure_door, Security Door
-opensecurity:mag_secure_door, MagReader Security Door
 opensecurity:private_secure_door, Private Security Door
-opensecurity:mag_reader_camo, Camo Magnetic Card Reader
+opensecurity:mag_secure_door, MagReader Security Door
 opensecurity:rolldoor, Rolldoor
-opensecurity:rolldoor_controller, Rolldoor Controller
 opensecurity:nanofog, NanoFog
 opensecurity:door_controller, Door Controller
-opensecurity:mag_card, Magnetic Strip Card
-opensecurity:damage_upgrade, Damage Upgrade
-opensecurity:rfid_card, RFID Card
+opensecurity:mag_reader_camo, Camo Magnetic Card Reader
+opensecurity:rolldoor_controller, Rolldoor Controller
 opensecurity:energy_upgrade, Energy Upgrade
+opensecurity:mag_card, Magnetic Strip Card
+opensecurity:movement_upgrade, Movement Upgrade
+opensecurity:rfid_card, RFID Card
 opensecurity:rfid_reader_card, RFID Reader Card
+opensecurity:damage_upgrade, Damage Upgrade
 opensecurity:nanodna, NanoDNA
 opensecurity:cooldown_upgrade, Cooldown Upgrade
-opensecurity:movement_upgrade, Movement Upgrade
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Screen Module
 pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
 pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
 pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
@@ -14597,6 +14632,19 @@ pneumaticcraft:heat_frame, Heat Frame
 pneumaticcraft:spawner_agitator, Spawner Agitator
 pneumaticcraft:crop_support, Crop Support
 pneumaticcraft:transfer_gadget, Transfer Gadget
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Screen Module
+pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -14795,31 +14843,31 @@ rftoolsdim:structure_essence:8, Structure Swamp Hut Essence
 rftoolsdim:structure_essence:9, Structure Desert Temple Essence
 rftoolsdim:structure_essence:10, Structure Jungle Temple Essence
 rftoolsdim:structure_essence:11, Structure Igloo Essence
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
-rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
-rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
-rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
-rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
-rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
-rftoolsdim:known_dimlet:9, Digit Dimlet (8)
-rftoolsdim:known_dimlet:7, Feature Dimlet (None)
-rftoolsdim:known_dimlet:9, Digit Dimlet (9)
-rftoolsdim:known_dimlet:9, Digit Dimlet (4)
-rftoolsdim:known_dimlet:9, Digit Dimlet (5)
-rftoolsdim:known_dimlet:9, Digit Dimlet (6)
-rftoolsdim:known_dimlet:9, Digit Dimlet (7)
-rftoolsdim:known_dimlet:9, Digit Dimlet (0)
 rftoolsdim:known_dimlet:9, Digit Dimlet (1)
 rftoolsdim:known_dimlet:9, Digit Dimlet (2)
 rftoolsdim:known_dimlet:9, Digit Dimlet (3)
-rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
-rftoolsdim:known_dimlet:5, Structure Dimlet (None)
-rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
-rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
+rftoolsdim:known_dimlet:9, Digit Dimlet (4)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal day)
+rftoolsdim:known_dimlet:9, Digit Dimlet (5)
+rftoolsdim:known_dimlet:9, Digit Dimlet (6)
+rftoolsdim:known_dimlet:9, Digit Dimlet (7)
+rftoolsdim:known_dimlet:8, Time Dimlet (Normal)
+rftoolsdim:known_dimlet:9, Digit Dimlet (8)
+rftoolsdim:known_dimlet:9, Digit Dimlet (9)
+rftoolsdim:known_dimlet:1, Liquid Dimlet (Water)
 rftoolsdim:known_dimlet:10, Effect Dimlet (None)
+rftoolsdim:known_dimlet:7, Feature Dimlet (None)
+rftoolsdim:known_dimlet:2, Material Dimlet (Stone)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal night)
+rftoolsdim:known_dimlet:5, Structure Dimlet (None)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Flat)
+rftoolsdim:known_dimlet:13, Weather Dimlet (Default)
+rftoolsdim:known_dimlet:4, Sky Dimlet (Normal)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Default)
+rftoolsdim:known_dimlet:12, Controller Dimlet (Single)
+rftoolsdim:known_dimlet:3, Mob Dimlet (Default)
+rftoolsdim:known_dimlet:6, Terrain Dimlet (Void)
+rftoolsdim:known_dimlet:9, Digit Dimlet (0)
 rftoolsdim:efficiency_essence, Efficiency Essence
 rftoolsdim:mediocre_efficiency_essence, Mediocre Efficiency Essence
 rftoolsdim:empty_dimension_tab, Empty Dimension Tab
@@ -14852,6 +14900,128 @@ rftoolsdim:time_absorber, Time Absorber
 rftoolsdim:fake_water, retaW
 rftoolsdim:fake_gravel, levarG
 rftoolsdim:fake_sand, dnaS
+rsgauges:bistableswitch2, Industrial Contact Lever
+rsgauges:bistableswitch8, Industrial Lever
+rsgauges:bistableswitch7, Industrial Rotary Lever
+rsgauges:bistableswitch1, Rotary Machine Switch
+rsgauges:bistableswitch3, Two-Button Machine Switch
+rsgauges:bistableswitch5, ESTOP Button
+rsgauges:bistableswitch6, Hopper Blocker
+rsgauges:pulseswitch1, Machine Button
+rsgauges:pulseswitch2, Fenced Machine Button
+rsgauges:pulseswitch6, Industrial Button
+rsgauges:pulseswitch5, Industrial Foot Button
+rsgauges:pulseswitch3, Industrial Pull Handle Button
+rsgauges:dimmerswitch1, Industrial Dimmer
+rsgauges:contactmat1, Industrial Door Contact Mat
+rsgauges:contactmat2, Industrial Contact Mat
+rsgauges:contactmat3, Industrial Shock Sensitive Contact Mat
+rsgauges:trapdoorswitch1, Industrial Shock Activated Trapdoor
+rsgauges:trapdoorswitch2, Industrial Sensitive Shock Activated Trapdoor
+rsgauges:trapdoorswitch3, Industrial Fall-Through Detection Frame
+rsgauges:automaticswitch4, Industrial Day Timer Clock
+rsgauges:automaticswitch7, Industrial Interval Signal Timer
+rsgauges:automaticswitch1, Industrial Infrared Entity Detector
+rsgauges:automaticswitch2, Industrial Linear Laser Entity Detector
+rsgauges:automaticswitch3, Industrial Local Light Sensor
+rsgauges:automaticswitch5, Industrial Rain Sensor
+rsgauges:automaticswitch6, Industrial Thunderstorm Detector
+rsgauges:observerswitch1, Industrial Block Category Detector
+rsgauges:relay_pulseswitchrx1, Industrial Pulse Switch Link Receiver
+rsgauges:relay_pulseswitchrx2, Industrial Cased Pulse Switch Link Receiver
+rsgauges:relay_bistableswitchrx1, Industrial Switch Link Receiver
+rsgauges:relay_bistableswitchrx2, Industrial Cased Switch Link Receiver
+rsgauges:relay_pulseswitchtx1, Industrial Switch Link Pulse Sender
+rsgauges:relay_bistableswitchtx1, Industrial Switch Link Sender
+rsgauges:industrial_knock_switch, Knock Detector Bistable Switch (industrial)
+rsgauges:industrial_knock_button, Knock Detector Pulse Switch (industrial)
+rsgauges:flatgauge1, Analog Voltmeter Redstone Gauge
+rsgauges:flatgauge6, Small Analog Voltmeter Redstone Gauge
+rsgauges:flatgauge2, Analog Bar Redstone Gauge
+rsgauges:flatgauge3, Small Digital Display Redstone Gauge
+rsgauges:flatgauge5, Glass Tube Redstone Gauge
+rsgauges:indicator4, Alarm Lamp
+rsgauges:soundindicator1, Alarm Siren
+rsgauges:indicator1, Green LED Redstone Indicator
+rsgauges:indicator1blink1, Green Blinking LED Redstone Indicator
+rsgauges:indicator2, Yellow LED Redstone Indicator
+rsgauges:indicator2blink1, Yellow Blinking LED Redstone Indicator
+rsgauges:indicator3, Red LED Redstone Indicator
+rsgauges:indicator3blink1, Red LED Redstone Indicator
+rsgauges:indicator_led_white, White LED Redstone Indicator
+rsgauges:indicator_led_white_blink, White Blinking LED Redstone Indicator
+rsgauges:bistableswitch_rustic1, Rustic Lever
+rsgauges:bistableswitch_rustic2, Rustic Two-Hinge Lever
+rsgauges:bistableswitch_rustic3, Rustic Rotary Lever
+rsgauges:bistableswitch_rustic7, Rustic Nail Lever
+rsgauges:pulseswitch_rustic1, Rustic Button
+rsgauges:pulseswitch_rustic2, Rustic Small Button
+rsgauges:pulseswitch_rustic3, Rustic Chain Button
+rsgauges:pulseswitch_rustic7, Rustic Nail Button
+rsgauges:contactmat_rustic1, Rustic Door Pressure Plate
+rsgauges:contactmat_rustic2, Rustic Pressure Plate
+rsgauges:contactmat_rustic3, Rustic Shock Sensitive Pressure Plate
+rsgauges:trapdoorswitch_rustic1, Rustic Shock Activated Trapdoor
+rsgauges:trapdoorswitch_rustic2, Rustic Sensitive Shock Activated Trapdoor
+rsgauges:trapdoorswitch_rustic3, Rustic Fall-Through Detector Trapdoor
+rsgauges:gauge_rustic2, Rustic Circular Wall Meter Redstone gauge
+rsgauges:indicator_rustic_flag, Rustic Redstone Semaphore
+rsgauges:bistableswitch_glass1, Bistable Glass Switch
+rsgauges:bistableswitch_glass2, Bistable Glass Touch Switch
+rsgauges:pulseswitch_glass1, Glass Button
+rsgauges:pulseswitch_glass2, Small Glass Button
+rsgauges:pulseswitch_glass3, Glass Touch Button
+rsgauges:contactmat_glass1, Configurable Glass Contact Plate
+rsgauges:contactmat_glass2, Glass Contact Plate
+rsgauges:daytimeswitch_glass1, Glass Day Timer Clock
+rsgauges:timerswitch_glass1, Glass Interval Signal Timer
+rsgauges:detectorswitch_glass1, Glass Infrared Entity Detector
+rsgauges:detectorswitch_glass2, Glass Linear Laser Entity Detector
+rsgauges:industrial_comparator_switch, Industrial Comparator Switch
+rsgauges:flatgauge4, Glass Bar Redstone Gauge
+rsgauges:bistableswitch_oldfancy1, Old Fancy Lever
+rsgauges:bistableswitch_oldfancy2, Old Fancy Rotary Lever
+rsgauges:pulseswitch_oldfancy1, Old Fancy Button
+rsgauges:pulseswitch_oldfancy2, Old Fancy Chain Button
+rsgauges:pulseswitch_oldfancy4, Small Old Fancy Button
+rsgauges:powerplant_yellow, Yellow power plant
+rsgauges:powerplant_red, Red power plant
+rsgauges:bistableswitch4, Small Light Switch
+rsgauges:arrowtarget, Arrow Target
+rsgauges:valve_wheel_switch, Valve Switch
+rsgauges:elevator_button, Elevator Button
+rsgauges:door_sensor_switch, Door sensor
+rsgauges:sensitiveglass, Redstone-Sensitive Glass Block (Light Emitting)
+rsgauges:sensitiveglass_white, Redstone-Sensitive Glass Block (White-Stained)
+rsgauges:sensitiveglass_red, Redstone-Sensitive Glass Block (Red-Stained)
+rsgauges:sensitiveglass_green, Redstone-Sensitive Glass Block (Green-Stained)
+rsgauges:sensitiveglass_blue, Redstone-Sensitive Glass Block (Blue-Stained)
+rsgauges:sensitiveglass_yellow, Redstone-Sensitive Glass Block (Yellow-Stained)
+rsgauges:sensitiveglass_orange, Redstone-Sensitive Glass Block (Orange-Stained)
+rsgauges:sensitiveglass_magenta, Redstone-Sensitive Glass Block (Magenta-Stained)
+rsgauges:sensitiveglass_lightblue, Redstone-Sensitive Glass Block (Light-Blue-Stained)
+rsgauges:sensitiveglass_lime, Redstone-Sensitive Glass Block (Lime-Stained)
+rsgauges:sensitiveglass_pink, Redstone-Sensitive Glass Block (Pink-Stained)
+rsgauges:sensitiveglass_gray, Redstone-Sensitive Glass Block (Gray-Stained)
+rsgauges:sensitiveglass_lightgray, Redstone-Sensitive Glass Block (Light-Gray-Stained)
+rsgauges:sensitiveglass_cyan, Redstone-Sensitive Glass Block (Cyan-Stained)
+rsgauges:sensitiveglass_purple, Redstone-Sensitive Glass Block (Purple-Stained)
+rsgauges:sensitiveglass_brown, Redstone-Sensitive Glass Block (Brown-Stained)
+rsgauges:sensitiveglass_black, Redstone-Sensitive Glass Block (Black-Stained)
+rsgauges:sensitiveglass_inverted, Redstone-Sensitive Glass Block (Inverted, Light Emitting)
+rsgauges:pulseswitch_rustic4, Pulse switch
+rsgauges:pulseswitch_rustic5, Pulse switch
+rsgauges:pulseswitch_rustic6, Pulse switch
+rsgauges:pulseswitch_oldfancy3, Pulse Switch
+rsgauges:bistableswitch_oldfancy3, Bistable Switch
+rsgauges:bistableswitch_oldfancy4, Bistable Switch
+rsgauges:bistableswitch_oldfancy5, Bistable Switch
+rsgauges:bistableswitch_oldfancy6, Bistable Switch
+rsgauges:bistableswitch_oldfancy7, Bistable Switch
+rsgauges:bistableswitch_rustic4, Bistable Switch
+rsgauges:bistableswitch_rustic5, Bistable Switch
+rsgauges:bistableswitch_rustic6, Bistable Switch
+rsgauges:switchlink_pearl, Switch Link Pearl
 simplybackpacks:commonbackpack, Common Backpack
 simplybackpacks:uncommonbackpack, Uncommon Backpack
 simplybackpacks:rarebackpack, Rare Backpack
@@ -15066,6 +15236,24 @@ wit:wit, Wireless Interface Terminal
 wit:wit_creative, Creative Wireless Interface Terminal
 wpt:wpt, Wireless Pattern Terminal
 wpt:wpt_creative, Creative Wireless Pattern Terminal
+wormhole:portal_frame, Portal Frame
+wormhole:portal_x, Portal
+wormhole:portal_y, Portal
+wormhole:portal_z, Portal
+wormhole:portal_stabilizer, Portal Stabilizer
+wormhole:basic_energy_cell, Basic Energy Cell
+wormhole:advanced_energy_cell, Advanced Energy Cell
+wormhole:creative_energy_cell, Creative Energy Cell
+wormhole:basic_target_cell, Basic Target Cell
+wormhole:advanced_target_cell, Advanced Target Cell
+wormhole:coal_generator, Coal Generator
+wormhole:target_device, Target Definition Device
+wormhole:advanced_target_device, Advanced Target Definition Device
+xercapaint:item_palette, Palette
+xercapaint:item_canvas, Canvas
+xercapaint:item_canvas_large, Large Canvas
+xercapaint:item_canvas_long, Long Canvas
+xercapaint:item_canvas_tall, Tall Canvas
 xlfoodmod:rock_salt, Rock Salt
 xlfoodmod:grass, Grass
 xlfoodmod:vanilla_flower, Vanilla Flower
@@ -15220,20 +15408,20 @@ ocdevices:upgrade_tier4, Upgrade (Any => Creative)
 ocdevices:upgrade_blastresistance, Upgrade (Blast Resistance)
 ocdevices:upgrade_tier2, Upgrade (Any => Tier 2)
 ocdevices:upgrade_tier3, Upgrade (Any => Tier 3)
-ocdevices:card_dock, Card Dock
-ocdevices:case_next, Case (Next)
-ocdevices:case_ibm_5150, Case (IBM 5150)
-ocdevices:case_workstation, Case (Workstation)
-ocdevices:database_adapter, Database Adapter
-ocdevices:keyboard, Keyboard
-ocdevices:itembench, ItemBench
 ocdevices:case_slim_oc, Case (Slim-OC)
-ocdevices:matrix, Matrix (WIP!)
-ocdevices:bridge, Bridge
-ocdevices:rack, Server Rack
+ocdevices:case_next, Case (Next)
 ocdevices:recipe_dictionary, Recipe Dictionary
+ocdevices:database_adapter, Database Adapter
+ocdevices:case_ibm_5150, Case (IBM 5150)
+ocdevices:matrix, Matrix (WIP!)
+ocdevices:rack, Server Rack
+ocdevices:keyboard, Keyboard
 ocdevices:flat_screen, Flatscreen Panel
+ocdevices:card_dock, Card Dock
+ocdevices:itembench, ItemBench
 ocdevices:redstone, Advanced Redstone I/O
+ocdevices:bridge, Bridge
+ocdevices:case_workstation, Case (Workstation)
 betteranimalsplus:wolfhead, item.null.name
 betteranimalsplus:wolfhead_1, Wolf Head
 betteranimalsplus:wolfhead_2, Wolf Head
@@ -17400,6 +17588,36 @@ redstonepaste:stickycomparator, Sticky Comparator
 refinedstorageaddons:wireless_crafting_grid:0, Wireless Crafting Grid
 refinedstorageaddons:wireless_crafting_grid:0, Wireless Crafting Grid
 refinedstorageaddons:wireless_crafting_grid:1, Creative Wireless Crafting Grid
+tetra:sword_modular, item.sword_modular.name
+tetra:geode, Geode
+tetra:pristine_lapis, Pristine Lapis Lazuli
+tetra:pristine_emerald, Pristine Emerald
+tetra:pristine_diamond, Pristine Diamond
+tetra:toolbelt_modular, item.toolbelt_modular.name
+tetra:duplex_tool_modular, item.duplex_tool_modular.name
+tetra:magmatic_cell, Thermal cell
+tetra:forged_bolt, Bolt
+tetra:forged_beam, Structure beam
+tetra:forged_mesh, Flex mesh
+tetra:quick_latch, Quick latch
+tetra:metal_scrap, Metal scrap
+tetra:vent_plate, Vent plate
+tetra:journal, Holosphere
+tetra:workbench, Crafting Table
+tetra:hammer_head, Hammer head
+tetra:hammer_base, Hammer base
+tetra:forged_wall, Forged wall
+tetra:forged_pillar, Forged pillar
+tetra:forged_platform, Forged platform
+tetra:forged_platform_slab, Forged platform
+tetra:forged_vent, Forged vent
+tetra:forged_container, Forged container
+tetra:forged_crate, Forged crate
+tetra:transfer_unit, Transfer unit
+tetra:core_extractor, Core extractor
+tetra:extractor_piston, Extractor piston
+tetra:extractor_pipe, Extractor pipe
+tetra:seeping_bedrock, Seeping bedrock
 warpdrive:laser, Laser
 warpdrive:chunk_loader.basic, Basic Chunk Loader
 warpdrive:chunk_loader.advanced, Advanced Chunk Loader
@@ -18351,6 +18569,10 @@ warpdrive:warp_armor.superior.helmet, Warp Helmet
 warpdrive:warp_armor.superior.chestplate, Warp Chestplate
 warpdrive:warp_armor.superior.leggings, Warp Leggings
 warpdrive:warp_armor.superior.boots, Warp Boots
+openglasses:openglassesterminal, Glasses Terminal
+openglasses:openglasses_card, Glasses Terminal Card
+openglasses:openglasses:0, AR Glasses
+openglasses:openglasses:0, AR Glasses
 blockcraftery:editable_block, Framed Block
 blockcraftery:editable_stairs, Framed Stairs
 blockcraftery:editable_slab, Framed Slab

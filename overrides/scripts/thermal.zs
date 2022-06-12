@@ -19,10 +19,6 @@ mods.thermalexpansion.InductionSmelter.addRecipe
 	
 	
 
-
-
-// TESTING!
-
 // Add Pulverizer recipe for cobalt ore
 mods.thermalexpansion.Pulverizer.addRecipe
 	(<enderio:item_material:31> * 2,
@@ -55,6 +51,14 @@ mods.thermalexpansion.Pulverizer.addRecipe
 	<enderio:item_material:30>,
 	25);
 
+
+// mods.thermalexpansion.InductionSmelter.addRecipe
+//	(IItemStack primaryOutput,
+//	IItemStack primaryInput,
+//	IItemStack secondaryInput,
+//	int energy,
+//	@Optional IItemStack secondaryOutput,
+//	@Optional int secondaryChance);
 
 
 
