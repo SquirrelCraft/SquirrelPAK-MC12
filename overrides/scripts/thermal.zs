@@ -57,7 +57,7 @@ mods.thermalexpansion.Pulverizer.addRecipe
 	(oreDict_dustBeryllium.firstItem,
 	<minecraft:stone:5>,
 	1000,
-	<nuclearcraft:gem_dust:10>,
+	<nuclearcraft:compound:11>,
 	50);
 
 

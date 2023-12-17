@@ -2,7 +2,7 @@
 #
 
 PAK_NAME="MC12"
-PAK_RELEASE=1.7.2
+PAK_RELEASE=1.7.3
 PAK_VER="$PAK_RELEASE-1.12.2"
 PAK_DESC="Squirrels in Space"
 
