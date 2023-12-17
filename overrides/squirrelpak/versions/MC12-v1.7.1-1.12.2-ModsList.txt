@@ -1,4 +1,4 @@
-SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.1
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2
 AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
 AE2WTLib-1.12.2-1.0.34.jar
 AEAdditions-1.12.2-1.3.8.jar

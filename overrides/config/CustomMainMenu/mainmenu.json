@@ -135,7 +135,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "?nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -164,7 +164,7 @@
         },
         "packinfo2":
         {
-            "text" : "v1.7.1+1.12.2",
+            "text" : "v1.7.2+1.12.2",
             "posX" : -25,
             "posY" : 120,
             "color" : -1,

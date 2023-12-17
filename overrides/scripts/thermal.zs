@@ -51,6 +51,15 @@ mods.thermalexpansion.Pulverizer.addRecipe
 	<enderio:item_material:30>,
 	25);
 
+// Thermal Add to Pulverizer - Andesite to Beryllium + Alugentum (50%)
+val oreDict_dustBeryllium = <ore:dustBeryllium>;
+mods.thermalexpansion.Pulverizer.addRecipe
+	(oreDict_dustBeryllium.firstItem,
+	<minecraft:stone:5>,
+	1000,
+	<nuclearcraft:gem_dust:10>,
+	50);
+
 
 // mods.thermalexpansion.InductionSmelter.addRecipe
 //	(IItemStack primaryOutput,
@@ -59,7 +68,3 @@ mods.thermalexpansion.Pulverizer.addRecipe
 //	int energy,
 //	@Optional IItemStack secondaryOutput,
 //	@Optional int secondaryChance);
-
-
-
-

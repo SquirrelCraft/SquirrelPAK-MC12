@@ -53,7 +53,7 @@ fi
 
 
 # Ensure the remove list exists
-if [ ! -f "$Script_Dir/squirrelpak/client_mod_remove_list.txt" ]; then
+if [ ! -f "$Script_Dir/squirrelpak/etc/client_mod_remove_list.txt" ]; then
     echo " "
     echo "Missing remove list!"
     echo "Can not find file $Script_Dir/squirrelpak/client_mod_remove_list.txt"

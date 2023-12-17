@@ -1,21 +1,30 @@
-SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.1
+SquirrelPAK MC12 - Squirrels in Space v1.7.2-1.12.2
 =====================================================
-SquirrelPAK MC12 Release 1.7.1
-File Version 1.7.1-1.12.1
+SquirrelPAK MC12 Release 1.7.2
+File Version 1.7.2-1.12.2
 =====================================================
 
 
  
-Updates and Upgrades
+
+Duct Tape, Bubble Gum and chewing rocks 
 
 Summary:
-We have updated mods that needed updates and
-also tweaked settings for RFTools Dim to allow
-Uranium. Also back ported the build scripts and
-new change log format. 
+Just a few tweaks with settings. Move the jet pack UI to the top left, and 
+tweaked reactor outputs a bit. Also tweaked AR settings.
+
+Since adding NucCraft added recipe to other mods for dust from Andesite
+
+Added craft tweaker recipe for:
+Actually Additions Add to Crusher - Andesite to Beryllium + Arsenic (30%)
+Thermal Add to Pulverizer - Andesite to Beryllium + Alugentum (50%)
+ExtraUtils Add to Crusher - Andesite to Beryllium + Arsenic (33%)
+  
+Since implementing the new change log automation, Minecraft version was
+set wrong to 1.12.1. Should be 1.12.2. Updated all logs and such to show
+we are using Minecraft 1.12.2 duh!
  
- 
-Mod Changes from v1.7.0-1.12.1
+Mod Changes from v1.7.1-1.12.2
 
 
 Added Mods:
@@ -39,7 +48,83 @@ Updated Mods:
 <  = Mod Added
 >  = Mod Removed
 -------------------------------------------
-SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.1            | SquirrelPAK MC12 - Squirrels in Space v1.7.0-1.12.1
+SquirrelPAK MC12 - Squirrels in Space v1.7.2-1.12.2            | SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2
+CraftTweaker2-1.12-4.1.20.695.jar                              | CraftTweaker2-1.12-4.1.20.694.jar
+LittleTiles_v1.5.84_mc1.12.2.jar                               | LittleTiles_v1.5.82_mc1.12.2.jar
+
+-------------------------------------------
+For the full mod list see the file 
+squirrelpak/versions/MC12-v1.7.2-1.12.2-ModsList.txt
+-------------------------------------------
+
+ 
+ 
+
+Please report any issues with the mod pack on the issue tracker
+on our github page. See the mod pack description for details
+
+
+Important Links:
+
+Submit an Issue:
+(https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues)
+
+
+
+Connect with us, see our live streams, stream schedule and all our
+social media links below!:
+(https://squirrelcraft.live)
+
+
+
+
+
+= = = = = = = 
+
+
+
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2
+=====================================================
+SquirrelPAK MC12 Release 1.7.1
+File Version 1.7.1-1.12.2
+=====================================================
+
+
+ 
+Updates and Upgrades
+
+Summary:
+We have updated mods that needed updates and
+also tweaked settings for RFTools Dim to allow
+Uranium. Also back ported the build scripts and
+new change log format. 
+ 
+ 
+Mod Changes from v1.7.0-1.12.2
+
+
+Added Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+Removed Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+ 
+ 
+-------------------------------------------
+Updated Mods:
+-------------------------------------------
+[Key Codes]
+|  = Mod Updated
+<  = Mod Added
+>  = Mod Removed
+-------------------------------------------
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2            | SquirrelPAK MC12 - Squirrels in Space v1.7.0-1.12.2
 CraftTweaker2-1.12-4.1.20.694.jar                              | CraftTweaker2-1.12-4.1.20.693.jar
 LittleTiles_v1.5.82_mc1.12.2.jar                               | LittleTiles_v1.5.81_mc1.12.2.jar
 _supermartijn642corelib-1.1.15-forge-mc1.12.jar                | _supermartijn642corelib-1.1.12b-forge-mc1.12.jar
@@ -47,7 +132,7 @@ wormhole-1.1.15-forge-mc1.12.jar                               | wormhole-1.1.14
 
 -------------------------------------------
 For the full mod list see the file 
-squirrelpak/versions/MC12-v1.7.1-1.12.1-ModsList.txt
+squirrelpak/versions/MC12-v1.7.1-1.12.2-ModsList.txt
 -------------------------------------------
 
  
