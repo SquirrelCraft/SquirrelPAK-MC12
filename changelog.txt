@@ -1,3 +1,81 @@
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.1
+=====================================================
+SquirrelPAK MC12 Release 1.7.1
+File Version 1.7.1-1.12.1
+=====================================================
+
+
+ 
+Updates and Upgrades
+
+Summary:
+We have updated mods that needed updates and
+also tweaked settings for RFTools Dim to allow
+Uranium. Also back ported the build scripts and
+new change log format. 
+ 
+ 
+Mod Changes from v1.7.0-1.12.1
+
+
+Added Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+Removed Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+ 
+ 
+-------------------------------------------
+Updated Mods:
+-------------------------------------------
+[Key Codes]
+|  = Mod Updated
+<  = Mod Added
+>  = Mod Removed
+-------------------------------------------
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.1            | SquirrelPAK MC12 - Squirrels in Space v1.7.0-1.12.1
+CraftTweaker2-1.12-4.1.20.694.jar                              | CraftTweaker2-1.12-4.1.20.693.jar
+LittleTiles_v1.5.82_mc1.12.2.jar                               | LittleTiles_v1.5.81_mc1.12.2.jar
+_supermartijn642corelib-1.1.15-forge-mc1.12.jar                | _supermartijn642corelib-1.1.12b-forge-mc1.12.jar
+wormhole-1.1.15-forge-mc1.12.jar                               | wormhole-1.1.14-forge-mc1.12.jar
+
+-------------------------------------------
+For the full mod list see the file 
+squirrelpak/versions/MC12-v1.7.1-1.12.1-ModsList.txt
+-------------------------------------------
+
+ 
+ 
+
+Please report any issues with the mod pack on the issue tracker
+on our github page. See the mod pack description for details
+
+
+Important Links:
+
+Submit an Issue:
+(https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues)
+
+
+
+Connect with us, see our live streams, stream schedule and all our
+social media links below!:
+(https://squirrelcraft.live)
+
+
+
+
+
+= = = = = = = 
+
+
+
 ================================================================================
 SquirrelPAK MC12 Change Log
 ================================================================================

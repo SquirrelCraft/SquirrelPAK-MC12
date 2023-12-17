@@ -1,13 +1,42 @@
 #!/bin/bash
+#     Script creates server pack zip file for server install
+#     This script was designed for MacOS
+#     Run in terminal in the directory of the mod pack
+#
+#
+#     Internal Script 
+#     v1.0
 
-# Script creates server pack zip file for server install
-# This script was designed for MacOS
-# Run in terminal in the directory of the mod pack
+
+#     squirrelpak/bin/create_server_pack.sh
+#     Copyright (C) 2023 The Network Squirrel(SquirrelCraft)
+#     https://github.com/SquirrelCraft     
 #
-# ./squirrelpak/create_server_pack.sh
-#
-# Internal Script 
-# v1.0
+#     This program is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+# 
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+# 
+#     You should have received a copy of the GNU General Public License
+#     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    
+    
+echo " "
+echo " ----------------------------------------------------------------------------"
+echo "  SquirrelPAK Server Export Script v1.0"
+echo "  (create_server_pack.sh) - Licnesed under GNU GPLv3"
+echo " ----------------------------------------------------------------------------"
+echo " | Copyright (C) 2023 The Network Squirrel(SquirrelCraft)                   |"
+echo " | https://github.com/SquirrelCraft                                         |"
+echo " | This program comes with ABSOLUTELY NO WARRANTY; This is free software,   |"
+echo " | and you are welcome to redistribute it under certain conditions          |"
+echo " ----------------------------------------------------------------------------"
+echo " "
 
 Script_Dir=$PWD 
 
@@ -23,8 +52,7 @@ if [ ! -f ./changelog.txt ]; then
 fi
 
 
-# We should be in the root dir where the changelog is
-# located, if not exit
+# Ensure the remove list exists
 if [ ! -f "$Script_Dir/squirrelpak/client_mod_remove_list.txt" ]; then
     echo " "
     echo "Missing remove list!"
@@ -38,7 +66,7 @@ fi
 
 
 # Pack Name / Ver
-source ./squirrelpak/version.txt
+source ./squirrelpak/etc/version.txt
 
 SCSP_Server_Dir="/tmp/SquirrelPAK-$PAK_NAME-v$PAK_VER"
 SCSP_Server_File="$Script_Dir/SquirrelPAK-$PAK_NAME-v$PAK_VER.zip"
@@ -85,7 +113,7 @@ cp ./changelog.txt $SCSP_Server_Dir
 echo " "
 echo "Remove client only mods..."
 # Remove client only mods from list
-input="$Script_Dir/squirrelpak/client_mod_remove_list.txt"
+input="$Script_Dir/squirrelpak/etc/client_mod_remove_list.txt"
 
 cd $SCSP_Server_Dir
 

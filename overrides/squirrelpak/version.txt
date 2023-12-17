@@ -1,6 +1,0 @@
-# SquirrelCraft SquirrelPAK
-#
-
-PAK_NAME="MC12"
-PAK_VER="1.7.0-1.12.1"
-PAK_DESC="Squirrels in Space"
