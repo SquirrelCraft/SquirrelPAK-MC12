@@ -2,6 +2,61 @@
 SquirrelPAK MC12 Change Log
 ================================================================================
 
+SquirrelPAK MC12 Release 1.7.0
+
+File Version 1.7.0+1.12.2
+
+================================================================================
+
+
+##############################################################
+!!WARNING -   NuclearCraft: Overhauled Added!     - WARNING!!!
+##############################################################
+
+This update ADDS NuclearCraft mod! Be careful as there is now
+radiation! Craft a geiger counter! You should get a book on
+how to use the new mod! 
+
+##############################################################
+!!WARNING -   NuclearCraft: Overhauled Added!     - WARNING!!!
+##############################################################
+
+Alert!!: Need at least 5GB of RAM!
+
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+Changes from v1.6.1
+
+
+Added:
+------------------------------------------- 
+NuclearCraft
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+None
+-------------------------------------------
+
+
+
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
 SquirrelPAK MC12 Release 1.6.0
 
 File Version 1.6.0+1.12.2
@@ -39,7 +94,7 @@ None
 
 Updated:
 ------------------------------------------- 
-None
+wormhole-1.1.13 to 1.1.13a
 ------------------------------------------- 
 
  
