@@ -1,7 +1,7 @@
 // Thermal Tweaks
 
 // Add way to create uranium_ore from melted uranium
-mods.thermalexpansion.Transposer.addFillRecipe(<atomicscience:uranium_ore>, <minecraft:stone>, <liquid:uranium> * 432, 500);
+mods.thermalexpansion.Transposer.addFillRecipe(<immersiveengineering:ore:5>, <minecraft:stone>, <liquid:uranium> * 432, 500);
 
 // Add melted uranium
 mods.thermalexpansion.Crucible.addRecipe(<liquid:uranium> * 144, <bigreactors:ingotyellorium>, 100);
@@ -59,27 +59,6 @@ mods.thermalexpansion.Pulverizer.addRecipe
 //	int energy,
 //	@Optional IItemStack secondaryOutput,
 //	@Optional int secondaryChance);
-
-
-
-// Add InductionSmelter recipe for uranium_238
-mods.thermalexpansion.InductionSmelter.addRecipe
-	(<atomicscience:uranium_238> * 3, 
-	<bigreactors:dustblutonium> * 3, 
-	<bigreactors:dustludicrite> * 9, 
-	10000, 
-	<atomicscience:processing_waste> * 9, 
-	100);
-
-
-// Add InductionSmelter recipe for ingotyellorium
-mods.thermalexpansion.InductionSmelter.addRecipe
-	(<bigreactors:ingotyellorium> * 28, 
-	<atomicscience:uranium_238> * 3, 
-	<bigreactors:mineralbenitoite> * 32, 
-	10000, 
-	<bigreactors:mineralanglesite> * 16, 
-	100);
 
 
 

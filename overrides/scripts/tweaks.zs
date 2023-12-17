@@ -28,9 +28,3 @@ recipes.addShaped(<advancedrocketry:seat>, [[null, null, null],[null, null, null
 // Add for making cobalt/ardite useful
 recipes.addShaped(<bigreactors:dustludicrite> * 8, [[<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>],[<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>], [<bigreactors:dustgraphite>, <enderio:item_material:31>, <enderio:item_material:30>]]);
 
-// Allow crafting of Thermal Sensor
-recipes.addShaped(<atomicscience:sensor_thermal_redstone>, [[<thermalfoundation:material:328>, <atomicscience:heat_probe>, <thermalfoundation:material:328>],[<thermalfoundation:material:328>, <thermalexpansion:frame>, <thermalfoundation:material:328>], [<thermalfoundation:material:328>, <opencomputers:card:5>, <thermalfoundation:material:328>]]);
-
-
-// Allow crafting of Atomic Science Reactor Controller
-recipes.addShaped(<atomicscience:reactor_controller>, [[<opencomputers:screen1>, <opencomputers:component:2>, <opencomputers:screen1>],[<opencomputers:material:16>, <atomicscience:rod_pipe>, <opencomputers:material:16>], [<opencomputers:card:12>, <atomicscience:sensor_thermal_redstone>, <opencomputers:component:11>]]);
