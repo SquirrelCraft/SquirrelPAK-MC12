@@ -1,3 +1,524 @@
+SquirrelPAK MC12 - Squirrels in Space v1.7.3-1.12.2
+=====================================================
+SquirrelPAK MC12 Release 1.7.3
+File Version 1.7.3-1.12.2
+=====================================================
+
+
+ 
+Two steps forward, one step back
+
+Summary:
+With the last update we fixed things, broke things and totally
+missed things.
+
+Changed back some of the reactor settings, it broke ours :-(
+
+Fix Thermal Pulverizer - Andesite to Beryllium + Alugentum (50%)
+
+Really fixed the rocket GUI this time...
+ 
+Mod Changes from v1.7.2-1.12.2
+
+
+Added Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+Removed Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+ 
+ 
+-------------------------------------------
+Updated Mods:
+-------------------------------------------
+[Key Codes]
+|  = Mod Updated
+<  = Mod Added
+>  = Mod Removed
+-------------------------------------------
+SquirrelPAK MC12 - Squirrels in Space v1.7.3-1.12.2            | SquirrelPAK MC12 - Squirrels in Space v1.7.2-1.12.2
+
+-------------------------------------------
+For the full mod list see the file 
+squirrelpak/versions/MC12-v1.7.3-1.12.2-ModsList.txt
+-------------------------------------------
+
+ 
+ 
+
+Please report any issues with the mod pack on the issue tracker
+on our github page. See the mod pack description for details
+
+
+Important Links:
+
+Submit an Issue:
+(https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues)
+
+
+
+Connect with us, see our live streams, stream schedule and all our
+social media links below!:
+(https://squirrelcraft.live)
+
+
+
+
+
+= = = = = = = 
+
+
+
+SquirrelPAK MC12 - Squirrels in Space v1.7.2-1.12.2
+=====================================================
+SquirrelPAK MC12 Release 1.7.2
+File Version 1.7.2-1.12.2
+=====================================================
+
+
+ 
+
+Duct Tape, Bubble Gum and chewing rocks 
+
+Summary:
+Just a few tweaks with settings. Move the jet pack UI to the top left, and 
+tweaked reactor outputs a bit. Also tweaked AR settings.
+
+Since adding NucCraft added recipe to other mods for dust from Andesite
+
+Added craft tweaker recipe for:
+Actually Additions Add to Crusher - Andesite to Beryllium + Arsenic (30%)
+Thermal Add to Pulverizer - Andesite to Beryllium + Alugentum (50%)
+ExtraUtils Add to Crusher - Andesite to Beryllium + Arsenic (33%)
+  
+Since implementing the new change log automation, Minecraft version was
+set wrong to 1.12.1. Should be 1.12.2. Updated all logs and such to show
+we are using Minecraft 1.12.2 duh!
+ 
+Mod Changes from v1.7.1-1.12.2
+
+
+Added Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+Removed Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+ 
+ 
+-------------------------------------------
+Updated Mods:
+-------------------------------------------
+[Key Codes]
+|  = Mod Updated
+<  = Mod Added
+>  = Mod Removed
+-------------------------------------------
+SquirrelPAK MC12 - Squirrels in Space v1.7.2-1.12.2            | SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2
+CraftTweaker2-1.12-4.1.20.695.jar                              | CraftTweaker2-1.12-4.1.20.694.jar
+LittleTiles_v1.5.84_mc1.12.2.jar                               | LittleTiles_v1.5.82_mc1.12.2.jar
+
+-------------------------------------------
+For the full mod list see the file 
+squirrelpak/versions/MC12-v1.7.2-1.12.2-ModsList.txt
+-------------------------------------------
+
+ 
+ 
+
+Please report any issues with the mod pack on the issue tracker
+on our github page. See the mod pack description for details
+
+
+Important Links:
+
+Submit an Issue:
+(https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues)
+
+
+
+Connect with us, see our live streams, stream schedule and all our
+social media links below!:
+(https://squirrelcraft.live)
+
+
+
+
+
+= = = = = = = 
+
+
+
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2
+=====================================================
+SquirrelPAK MC12 Release 1.7.1
+File Version 1.7.1-1.12.2
+=====================================================
+
+
+ 
+Updates and Upgrades
+
+Summary:
+We have updated mods that needed updates and
+also tweaked settings for RFTools Dim to allow
+Uranium. Also back ported the build scripts and
+new change log format. 
+ 
+ 
+Mod Changes from v1.7.0-1.12.2
+
+
+Added Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+Removed Mods:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+ 
+ 
+-------------------------------------------
+Updated Mods:
+-------------------------------------------
+[Key Codes]
+|  = Mod Updated
+<  = Mod Added
+>  = Mod Removed
+-------------------------------------------
+SquirrelPAK MC12 - Squirrels in Space v1.7.1-1.12.2            | SquirrelPAK MC12 - Squirrels in Space v1.7.0-1.12.2
+CraftTweaker2-1.12-4.1.20.694.jar                              | CraftTweaker2-1.12-4.1.20.693.jar
+LittleTiles_v1.5.82_mc1.12.2.jar                               | LittleTiles_v1.5.81_mc1.12.2.jar
+_supermartijn642corelib-1.1.15-forge-mc1.12.jar                | _supermartijn642corelib-1.1.12b-forge-mc1.12.jar
+wormhole-1.1.15-forge-mc1.12.jar                               | wormhole-1.1.14-forge-mc1.12.jar
+
+-------------------------------------------
+For the full mod list see the file 
+squirrelpak/versions/MC12-v1.7.1-1.12.2-ModsList.txt
+-------------------------------------------
+
+ 
+ 
+
+Please report any issues with the mod pack on the issue tracker
+on our github page. See the mod pack description for details
+
+
+Important Links:
+
+Submit an Issue:
+(https://github.com/SquirrelCraft/SquirrelPAK-MC12/issues)
+
+
+
+Connect with us, see our live streams, stream schedule and all our
+social media links below!:
+(https://squirrelcraft.live)
+
+
+
+
+
+= = = = = = = 
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC12 Release 1.7.0
+
+File Version 1.7.0+1.12.2
+
+================================================================================
+
+
+##############################################################
+!!WARNING -   NuclearCraft: Overhauled Added!     - WARNING!!!
+##############################################################
+
+This update ADDS NuclearCraft mod! Be careful as there is now
+radiation! Craft a geiger counter! You should get a book on
+how to use the new mod! 
+
+##############################################################
+!!WARNING -   NuclearCraft: Overhauled Added!     - WARNING!!!
+##############################################################
+
+Alert!!: Need at least 5GB of RAM!
+
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+Changes from v1.6.1
+
+
+Added:
+------------------------------------------- 
+NuclearCraft
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+None
+-------------------------------------------
+
+
+
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC12 Release 1.6.0
+
+File Version 1.6.0+1.12.2
+
+================================================================================
+
+
+##############################################################
+!!WARNING -      ATOMIC SCIENCE WAS REMOVED       - WARNING!!!
+##############################################################
+
+This update REMOVES atomic science mod!
+
+We MAY replace Atomic Science with NuclearCraft: Overhauled
+
+##############################################################
+!!WARNING -      ATOMIC SCIENCE WAS REMOVED       - WARNING!!!
+##############################################################
+
+Alert!!: Need at least 4GB of RAM!
+
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+Changes from v1.4.9 
+
+
+Added:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+wormhole-1.1.13 to 1.1.13a
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+Atomic Science 
+-------------------------------------------
+
+
+
+
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC12 Release 1.5.3
+
+File Version 1.5.3+1.12.2
+
+================================================================================
+
+
+There was issues with the dev build profile and mods got added
+that should not have gotten added and files were all wrong :-(
+
+We took 1.4.9 fresh files and updated all the mods that had 
+updates and re-added things that were added to 1.5.0
+So this should be a fresh version that should have 
+been 1.5.1.
+
+
+##############################################################
+!!WARNING - ATOMIC SCIENCE WILL BE REMOVED IN 1.6 - WARNING!!!
+##############################################################
+
+Also note we will be removing atomic science mod! This is due 
+to bugs found. We will remove it in the next update 1.6. If you 
+want to keep a world going you need to purge any Atomic Science 
+blocks and items from your world before upgrading to 1.6 to b
+safe OR make a backup
+
+We MAY replace Atomic Science with NuclearCraft: Overhauled
+
+##############################################################
+!!WARNING - ATOMIC SCIENCE WILL BE REMOVED IN 1.6 - WARNING!!!
+##############################################################
+
+Alert!!: Need at least 4GB of RAM!
+
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+Changes from v1.4.9 
+
+
+Added:
+------------------------------------------- 
+starterkit_1.12.2-2.4
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+AdvancedRocketry-1.12.2-1.7.0-232 to 1.12.2-2.0.0-13
+AEAdditions-1.12.2-1.3.4 to 1.12.2-1.3.8
+BiblioCraft[v2.4.5][MC1.12.2] to [v2.4.6][MC1.12.2]
+Controlling-3.0.10 to 3.0.12.2 
+CraftTweaker2-1.12-4.1.20.673 to 2-1.12-4.1.20.689
+CreativeCore_v1.10.69_mc1.12.2 to v1.10.70_mc1.12.2
+engineersdecor-1.12.2-1.1.3 to 1.12.2-1.1.5
+FastWorkbench-1.12.2-1.7.3 to 1.12.2-1.7.4
+foamfix-0.10.14-1.12.2 to 0.10.15-1.12.2
+rsgauges-1.12.2-1.2.5 to 1.12.2-1.2.8
+MCTImmersiveTechnology-1.12.2-1.9.99 to 1.12.2-1.9.100
+LibVulpes-1.12.2-0.4.2-87 to 1.12.2-0.4.2-25
+LittleTiles_v1.5.57_mc1.12.2 to v1.5.72_mc1.12.2
+modtweaker-4.0.20.5 to 4.0.20.11
+OpenComputers-MC1.12.2-1.7.5.192 to 1.8.2+b4abbf9
+OpenSecurity-1.12.2-1.0-83 to 1.12.2-1.0-93
+reauth-3.6.0 to 4.0.7
+SmoothFont-mc1.12.2-2.1.2 to 1.12.2-2.1.4
+supermartijn642configlib-1.0.9-mc1.12 to 1.1.6-forge-mc1.12
+supermartijn642corelib-1.0.16-mc1.12 to 1.1.10-forge-mc1.12
+WanionLib-1.12.2-2.8 to 1.12.2-2.9
+WarpDrive-1.12.2-1.5.23 to 1.12.2-1.5.28
+wormhole-1.1.9-mc1.12 to 1.1.13
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+None
+-------------------------------------------
+
+
+
+
+
+
+================================================================================
+SquirrelPAK MC12 Change Log
+================================================================================
+
+SquirrelPAK MC12 Release 1.5.2 (HotFix)
+
+File Version 1.5.2+1.12.2
+
+================================================================================
+
+Atomic Science got removed, this hotfix adds it back. Atomic Science
+will be removed in 1.6!
+
+Release 1.5.1 Below
+
+In this update we updated all mods that had updates and also 
+updated the SquirrelPAK manual.
+
+##############################################################
+!!WARNING - ATOMIC SCIENCE WILL BE REMOVED IN 1.6 - WARNING!!!
+##############################################################
+
+Also note we will be removing atomic science mod! This is due 
+to bugs found. We will remove it in the next update 1.6. If you 
+want to keep a world going you need to purge any Atomic Science 
+blocks and items from your world before upgrading to 1.6 to b
+safe OR make a backup
+
+We MAY replace Atomic Science with NuclearCraft: Overhauled
+
+##############################################################
+!!WARNING - ATOMIC SCIENCE WILL BE REMOVED IN 1.6 - WARNING!!!
+##############################################################
+
+Alert!!: Need at least 4GB of RAM!
+
+
+Please report any issues with the mod pack on the issue tracker 
+on our github page
+
+
+
+Added:
+------------------------------------------- 
+None
+------------------------------------------- 
+
+
+Updated:
+------------------------------------------- 
+Controlling-3.0.10 to 3.0.12.2
+CraftTweaker2-1.12-4.1.20.673 to 1.12-4.1.20.689
+FastWorkbench-1.12.2-1.7.3 to 1.12.2-1.7.4
+foamfix-0.10.14-1.12.2 to 0.10.15-1.12.2
+rsgauges-1.12.2-1.2.6 to 1.12.2-1.2.8
+LittleTiles_v1.5.58_mc1.12.2 to v1.5.72_mc1.12.2
+modtweaker-4.0.20.5 to 4.0.20.11
+OpenComputers-MC1.12.2-1.7.5.192 to MC1.12.2-1.8.2
+OpenSecurity-1.12.2-1.0-83 to 1.12.2-1.0-93
+ReAuth-1.12-4.0.0 to 4.0.7
+SmoothFont-mc1.12.2-2.1.3 to 1.12.2-2.1.4
+wormhole-1.1.9-mc1.12 to 1.1.13
+supermartijn642configlib-1.0.9a to 1.1.6
+supermartijn642corelib-1.0.18 to 1.1.10
+------------------------------------------- 
+
+ 
+Removed:
+------------------------------------------- 
+None
+-------------------------------------------
+
+
+
+
+
+
+
+
+
 ================================================================================
 SquirrelPAK MC12 Change Log
 ================================================================================
